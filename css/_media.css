@@ -1,0 +1,476 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.container {
+		width: 90%;
+	}
+	.winners-reward::before {
+		left: 0;
+	}
+	.packages .packages-check ul li {
+		margin-right: 10px;
+	}
+	.faq-desktop-wrap ul li {
+		margin-right: 80px;
+	}
+	.main-footer__logo {
+		left: 15px;
+	}
+	.main-footer-content ul li {
+		margin-left: 20px;
+	}
+	.main-footer-content__phone a {
+	    margin-right: 5px;
+	}
+	.main-footer-content ul li:last-child {
+	    margin-left: 10px;
+	}
+	.th-g__items-block--2 ul{
+		margin-left: 170px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.blfix-wrap {
+		display: none;
+	}
+	.container {
+		width: 750px;
+	}
+	.main-headline {
+		font-size: 24px;
+	}
+	.main-header {
+		min-height: 100px;
+		background: url("../img/main-screen-mob-bg.jpg")no-repeat top center;
+		background-size: 100%;
+		padding-bottom: 38px;
+	}
+	.logo-top-wrap {
+		max-width: 100%;
+		padding-left: 195px;
+	}
+	.logo-top-wrap img {
+		width: 63px;
+		height: 63px;
+		margin-right: 15px;
+	}
+	.logo-top-text {
+		display: none;
+	}
+	.logo-top-text-mob {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.prize-fund-wrap {
+	    float: none;
+	    margin: 0 auto;
+	    max-width: 400px;
+	    text-align: center;
+	    padding-top: 150px;
+	}
+	.prize-fund-wrap p, .prize-time-wrap p {
+	    font-size: 0;
+	    margin-bottom: 50px;
+	}
+	.prize-fund-wrap p::after {
+		display: none;
+	}
+	.prize-fund-wrap p span {
+		font-size: 73px;
+	}
+	.prize-fund-wrap a.main-scr-btn {
+		margin: 0 0 150px 68px;
+	}
+	.prize-fund-wrap p.prize-pool {
+		display: block;
+		max-width: 145px;
+		font-size: 16px;
+		color: #001731;
+		font-weight: 500;
+		text-align: center;
+		background: #fff;
+		border-radius: 20px;
+		padding: 13px 20px;
+		margin-left: 88px;
+		margin-bottom: -5px;
+	}
+	.prize-time-wrap {
+		display: none;
+	}
+	.prize-fund-wrap h1 {
+		max-width: 235px;
+		font-size: 24px;
+		color: #fff;
+		font-weight: 700;
+		margin: 0 auto;
+	}
+	.new-season-info {
+		height: auto;
+	}
+	.last-seasons,
+	.four-seasons {
+		height: auto;
+		padding-bottom: 50px;
+	}
+	.four-seasons {
+		padding-top: 50px;
+	}
+	.four-seasons .col-4 {
+		display: block;
+		margin-right: 0;
+	}
+	.four-seasons__headline {
+		margin-bottom: 30px;
+	}
+	h2.four-seasons__headline span {
+		width: 37px;
+		height: 37px;
+	}
+	.four-seasons-numbers span {
+		font-size: 48px;
+	}
+	.four-seasons-numbers .label {
+		margin-bottom: 30px;
+	}
+	.results-slider-wrap {
+		width: 100%;
+	}
+	.new-season-info h2 {
+		font-size: 18px;
+		color: #faba0d;
+		font-weight: 400;
+		margin-bottom: 40px;
+	}
+	.new-season-info h2:after {
+		display: none;
+	}
+	.new-season-info ul li {
+		font-size: 14px;
+		color: #fff;
+		margin-bottom: 35px;
+	}
+	.header-wrap-right {
+		float: none;
+		margin: 0 auto;
+	}
+	.new-season-info {
+		background: none;
+	}
+	.the-game {
+		min-height: 1520px;
+		background: url("../img/the-game-bg-mm.jpg") no-repeat top center;
+		background-size: cover;
+	}
+	.th-g__photo-man {
+		display: none;
+	}
+	.th-g__headline {
+		max-width: 220px;
+		font-size: 24px;
+		padding-top: 35px;
+		margin: 0 auto 25px;
+	}
+	.th-g__items-block--2 ul{
+		margin-left: 0;
+	}
+	.th-g__items-block {
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto 20px;
+	}
+	.th-g__item {
+		width: 100%;
+		max-width: 250px;
+		min-height: 40px;
+		font-size: 14px;
+		padding-left: 50px;
+		margin-bottom: 15px;
+	}
+	.th-g__item::before {
+		left: 0;
+		width: 30px;
+		height: 30px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.adventure {
+		min-height: 560px;
+		background: url("../img/adventure-bg-m.png") no-repeat top center;
+		background-size: cover;
+	}
+	.ad__headline {
+		max-width: 310px;
+		font-size: 24px;
+		padding-top: 380px;
+		margin: 0 auto 33px;
+	}
+	.ad__item {
+		display: block;
+		width: 100%;
+	}
+	.ad__item p {
+		max-width: 310px;
+		font-size: 14px;
+	}
+	.ad__item::before {
+		margin-bottom: 15px;
+	}
+	.ad__item--2 {
+		padding-bottom: 40px;
+	}
+	.how-to-kill {
+		background: url("../img/how-to-kill-bg-m.jpg") no-repeat center 430px;
+		background-size: cover;
+	}
+	.ho-t__headline {
+		font-size: 24px;
+		padding-top: 50px;
+		margin: 0 auto 35px;
+	}
+	.ho-t__text-author {
+		display: block;
+		width: 100%;
+		max-width: 310px;
+		min-height: 100px;
+		margin: 0 auto 25px;
+	}
+	.ho-t__text-author p {
+		font-size: 14px;
+	}
+	.ho-t__text-author--1::before {
+		top: -50px;
+	}
+	.ho-t__text-author--2::before {
+		bottom: -50px;
+	}
+	.ho-t__items {
+		padding-top: 375px;
+		padding-bottom: 60px;
+	}
+	.ho-t__item {
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		margin: 0 auto 30px;
+	}
+	.ho-t__item--4 .ho-t__info {
+		display: none;
+	}
+	.ho-t__item h3 {
+		font-size: 18px;
+	}
+	.ho-t__item p {
+		font-size: 18px;
+	}
+	.winners-reward::before {
+		display: none;
+	}
+	.wi-r__headline {
+		max-width: 220px;
+		font-size: 24px;
+		padding-top: 20px;
+		margin: 0 auto 20px;
+	}
+	.winners-reward {
+		min-height: 400px;
+		background-size: cover;
+	}
+	.wi-r__vidio-wrap {
+		max-width: 300px;
+	}
+	.wi-r__vidio-wrap::before {
+		background: url("../img/winners-reward-man-m.png") no-repeat top center;
+		top: -37px;
+		left: -169px;
+	}
+	.part-format__game {
+		display: none;
+	}
+	.part-format__game-tablet {
+		display: block;
+		position: relative;
+	}
+	.hard-game,
+	.easy-game {
+	    padding: 0;
+	}
+	.prize-winning-place-2 span {
+		font-size: 15px;
+	}	
+	.part-format {
+		height: auto;
+		padding-bottom: 45px;
+	}
+	.part-format__headline {
+		width: 297px;
+	}
+	.packages {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.packages .packages-check ul {
+		width: 297px;
+		margin: 0 auto;
+	}
+	.packages .packages-check ul li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 50px;
+	}
+	.packages-check__item {
+		width: 297px;
+	}
+	.timer-wrap {
+		width: 297px;
+	}
+	.timer-wrap li {
+		padding: 10px;
+	}
+	.timer-wrap li span::after {
+		right: -25px;
+	}
+	.faq {
+		height: auto;
+		padding-bottom: 60px;
+	}
+	.faq-desktop-wrap {
+		display: none;
+	}
+	.faq-tablet-wrap {
+		display: block;
+		width: 297px;
+		margin: 0 auto;
+	}
+	.partners__slider {
+		width: 297px;
+	}
+	.partner__slider--slide {
+		width: 73px;
+		height: 73px;
+	}	
+	.ready {
+		background: url("../img/bg-ready-tablet.jpg") center;
+		background-size: cover;
+		padding-bottom: 5px;
+	}
+	.ready__headline {
+		width: 297px;
+	}
+	.main-footer {
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.main-footer__logo {
+		display: none;
+	}
+	.main-footer-content {
+		text-align: center;
+	}
+	.main-footer-content ul li {
+		display: block;
+		margin-left: 0;
+	}
+	.main-footer-content ul li:last-child {
+		margin-left: 0;
+	}
+	.main-footer-content__description p {
+		font-size: 12px;
+		color: #abb0b7;
+		margin-bottom: 15px;
+	}
+	.main-footer-content__phone {
+		margin-bottom: 10px;
+	}
+	.main-footer-content__email {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.main-header {
+		background-size: cover;
+	}
+	.container {
+		width: 320px;
+	}
+	.logo-top-wrap {
+		padding-left: 0;
+	}
+	.prize-fund-wrap {
+		padding-top: 100px;
+	}
+	.prize-fund-wrap p {
+		margin-bottom: 35px;
+	}
+	.prize-fund-wrap p.prize-pool {
+		margin-left: 53px;
+	}
+	.prize-fund-wrap a.main-scr-btn {
+	    margin: 0 0 150px 25px;
+	}
+	.new-season-info {
+		padding: 40px 0 0 153px;
+	}
+	.ready {
+		min-height: 440px;
+		height: auto;
+		padding-top: 40px;
+	}
+	.ready__headline h2 {
+		margin-bottom: 5px;
+	}
+
+}
+@media only screen and (max-width : 415px) {
+	.packages .packages-check ul {
+	    padding: 10px 0px;
+	}
+	.faq-accordion {
+		padding: 10px;
+	}	
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.btn {
+		width: 280px;
+	}
+	.btn-contract-offer,
+	.btn-ready {
+		width: 297px;
+	}
+	.faq-accordion {
+	    padding: 3px;
+	}
+	.accordion-head::before {
+		left: 0px;
+		top: -15px;
+	}
+	.accordion .title_block::before {
+		left: 5px;
+		top: -12px;
+	}
+	.accordion .title_block::after {
+		left: 0px;
+		top: -20px;
+	}
+	.accordion .active_block .title_block::before {
+		top: -18px;
+	}
+	.btn-contract-offer::before {
+		left: 15px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.container {
+		width: auto;
+		margin-right: auto;
+	    margin-left: auto;
+	    padding-left: 7px;
+	    padding-right: 7px;
+	}
+}
+

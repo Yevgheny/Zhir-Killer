@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ЖирКиллер — Первая онлайн фитнес-игра</title>
+	<meta name="description" content="ЖирКиллер — Первая онлайн фитнес-игра">
+	
+	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
+	<style>
+		.loader{ background:none repeat scroll 0 0 #fff;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:9999}.loader_inner{background-image:url("img/preloader.gif"); background-size:cover;background-repeat:no-repeat;background-position:center center; background-color:#fff;height:90px;width:90px;margin-top:-30px;margin-left:-30px;left:50%;top:50%;position:absolute}body{font-size:1.8rem;min-width:320px;position:relative;line-height:1.3;font-family:'Fira Sans',sans-serif;overflow-x:hidden}.container{width: 1170px;margin: 0 auto;}
+			input[type=checkbox]{display: none}
+		.hidden{display:none}.gmnoprint >div{background:green !important}ul{margin:0;padding:0;text-decoration:none;list-style:none}li{padding:0;margin:0}nav{text-align:center;position:relative;height:auto;overflow:hidden;background:none}nav ul{text-align:center}nav ul li{display:inline-block}#blfix{ display:none; position:fixed; top:0; background-color:rgba(0,69,154,0.7); width:100%; padding:10px 0; z-index:8888}.fixed-nenu-item{display:inline-block;vertical-align:middle}.fixed-nenu-logo{margin-right:112px}nav ul li a{font-size:14px; color:#fff; display:block; padding:10px 30px; text-decoration:none; transition-property:all .2s linear 0s; -moz-transition:all .2s linear 0s; -webkit-transition:all .2s linear 0s; -o-transition:all .2s linear 0s; cursor:pointer; margin:0}.fixed-menu-btns{float:right;padding-top:8px}.fixed-menu-btns a{display:inline-block;vertical-align:middle;width:auto;height:27px;line-height:27px;font-size:14px;color:#fff;padding:0 14px}.btn.btn-blue{background:#1353a3;margin-left:14px}.btn.btn-blue:hover{background:#1353a3;-webkit-box-shadow:0px 3px 14px 1px rgba(19,83,163,1);-moz-box-shadow:0px 3px 14px 1px rgba(19,83,163,1);box-shadow:0px 3px 14px 1px rgba(19,83,163,1)}.btn.ho-t__btn:hover{-webkit-box-shadow:0px 3px 14px 1px #f60; box-shadow:0px 3px 14px 1px #f60}.button{display:inline;position:absolute;right:50px;top:6px;z-index:999;font-size:30px}.button a{text-decoration:none}.btn-open:after{color:#333;content:"f0c9";font-family:"FontAwesome";transition-property:all .2s linear 0s;-moz-transition:all .2s linear 0s;-webkit-transition:all .2s linear 0s;-o-transition:all .2s linear 0s}.btn-open:hover:after{color:#34B484}.btn-close:after{color:#fff;content:"f00d";font-family:"FontAwesome";transition-property:all .2s linear 0s;-moz-transition:all .2s linear 0s;-webkit-transition:all .2s linear 0s;-o-transition:all .2s linear 0s}.btn-close:hover:after{color:#34B484}.overlay{display:none;position:fixed;top:0;height:100%;width:100%;background:#333;overflow:auto;z-index:99}.main-header{min-height:1190px;background:url("img/main-screen-bg.jpg")no-repeat top center;padding-top:15px;margin-bottom:-12px;overflow:hidden}.logo-top-wrap{position: relative;max-width:195px;margin-bottom:85px}.logo-top-wrap img{display:inline-block;vertical-align:middle;margin-left:15px}.logo-top-text{color:#8ac7ff;text-align:left;padding-top:30px}.logo-top-text-mob{display:none;font-size:14px;color:#ffc000;font-weight:700;margin-bottom:0}.logo-top-text-mob span{display:block;font-size:24px;color:#fff}.prize-fund-wrap{float:left}.prize-fund-wrap p,.prize-time-wrap p{font-size:24px;color:#8ac7ff;margin-bottom:85px}.prize-pool{display:none}.prize-fund-wrap p:after,.prize-time-wrap p:after{content:'';display:block;width:50px;height:14px;background:#8ac7ff}.prize-fund-wrap p span,.prize-time-wrap p span{display:block;font-size:100px;color:#fff;font-weight:700;letter-spacing:-1px;padding-top:10px;margin-bottom:30px}.prize-fund-wrap p span sub{font-size:24px;font-weight:400;opacity:0.6}.prize-fund-wrap a.main-scr-btn{width:245px;font-size:24px;padding:5px 0;margin:0 0 125px 0;-webkit-box-shadow:0px 1px 205px 13px rgba(255,102,0,1);-moz-box-shadow:0px 1px 205px 13px rgba(255,102,0,1);box-shadow:0px 1px 205px 13px rgba(255,102,0,1)}.prize-fund-wrap a.main-scr-btn:hover{-webkit-box-shadow:0px 3px 14px 1px #f60;    box-shadow:0px 3px 14px 1px #f60}.prize-fund-wrap h1{max-width:300px;font-size:36px;color:#bde4ff}.header-wrap-right{float:right;max-width:380px}.prize-time-wrap p{color:#e24500}.prize-time-wrap p span{color:#4f1e00;letter-spacing:1px}.prize-time-wrap p:after{background:#cf4e00;margin-bottom:85px}.new-season-info{    height:540px;    margin-left:-100px;background:url("img/read-box.png")no-repeat top left;padding:40px 35px 0 180px}.new-season-info h2{font-size:30px;color:#000;margin-bottom:35px}.new-season-info h2:after{display: none;}.new-season-info ul li{position:relative;padding-left:25px;margin-bottom:25px}.new-season-info ul li:before{content:"\f00c";display:block;position:absolute;width:20px;height:20px;top:3px;left:0;font:normal normal normal 14px/1 FontAwesome;color:#faba0d}@media only screen and (max-width:1200px){}@media only screen and (max-width:992px){}@media only screen and (max-width:768px){.animated{-o-transition-property:none !important;-moz-transition-property:none !important;-ms-transition-property:none !important;-webkit-transition-property:none !important;transition-property:none !important;-o-transform:none !important;-moz-transform:none !important;-ms-transform:none !important;-webkit-transform:none !important;transform:none !important;-webkit-animation:none !important;-moz-animation:none !important;-o-animation:none !important;-ms-animation:none !important;animation:none !important;}.hamburger{right: 0;}}@media only screen and (max-width:736px){}@media only screen and (max-width:667px){}@media only screen and (max-width:568px){}@media only screen and (max-width:480px){ }@media only screen and (max-width:414px){}@media only screen and (max-width:375px){}@media only screen and (max-width:320px){}@media only screen and (max-width:480px){}@media only screen and (max-width:320px){}@media only screen and (min-width:320px){}@media only screen and (min-width:480px){}@media only screen and (min-width:768px){}@media only screen and (min-width:992px){ .no-padding{ padding-left:0; padding-right:0}}@media only screen and (min-width:1200px){.no-padding{padding-left:0;padding-right:0}.no-padding-right{padding-right:0}.no-padding-left{padding-left:0}}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+	
+	<!-- Load CSS Compilled without JS -->
+	<noscript><link rel="stylesheet" href="style.min.css"></noscript>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+
+</head>
+
+<body>
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<div class="remodal-bg">
+		<header id="main-header" class="main-header">
+			<div class="blfix-wrap">
+				<div id="blfix">
+					<div class="container">
+						<div class="fixed-nenu-item fixed-nenu-logo">
+							<a href="#main-header"><img src="img/fixed-menu-logo.png" alt="ЖирКиллер" class="logo-top"></a>							
+						</div>
+						<nav class="fixed-nenu-item">
+							<ul>
+								<li><a href="#packages">Стоимость</a></li>
+								<li><a href="#part-format">Призы</a></li>
+								<li><a href="#faq">Вопросы</a></li>
+							</ul>
+						</nav>
+						<div class="fixed-nenu-item fixed-menu-btns">
+							<a class="btn ho-t__btn" href="#packages">Принять участие</a>
+							<a class="btn btn-blue" href="#">Личный кабинет</a>
+						</div>
+					</div>
+				</div>
+			</div>				
+			<div class="container clearfix">
+				<div class="header-wrap-left">
+					<div class="logo-top-wrap">
+						<img src="img/logo-top.png" alt="ЖирКиллер" class="logo-top">
+						<p class="logo-top-text">Первая онлайн-фитнес игра с ценными призами</p>
+						<p class="logo-top-text-mob">Уже с 25 сентября! <span>5 сезон </span></p>
+					</div>
+					<div class="prize-fund-wrap">
+						<p class="prize-pool">Призовой фонд</p>
+						<p>Призовой фонд<span>500 000<sub>грн.</sub></span></p>
+						<a href="#packages" class="btn ho-t__btn main-scr-btn">Принять участие</a>
+						<h1>Поменяй лишний вес на призы!</h1>
+					</div>
+				</div>
+				<div class="header-wrap-right">
+					<div class="prize-time-wrap">
+						<p>Уже с 25 сентября!<span>5 сезон</span></p>
+					</div>
+					<div class="new-season-info">
+						<h2>В новом сезоне тебя ждут:</h2>
+						<ul>
+							<li>новые конкурсы и квесты;</li>
+							<li>новые упражнения;</li>
+							<li>новые методики</li>
+							<li>...и любимый БОСС!</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</header>
+		<section class="last-seasons">
+			<div class="container clearfix">
+				<h2 class="main-headline last-seasons__headline">Что было в прошлых сезонах</h2>
+				<div class="last-seasons-video">
+					<video width="100%" controls="controls" poster="img/last-sea-vid-poster.jpg">
+						<source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+						<source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+						<source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+						Тег video не поддерживается вашим браузером. 
+						<a href="video/duel.mp4">Скачайте видео</a>.
+				   </video>
+				</div>
+			</div>
+		</section>
+		<section class="four-seasons">
+			<div class="container clearfix">
+				<h2 class="main-headline four-seasons__headline">За <span>4</span>сезона игры:</h2>
+				<div class="four-seasons-numbers" id="counts">
+					<div class="col-4">
+						<div class="circle">
+							<span class="spincrement">20000</span><span class="plus">+</span>
+						</div>
+						<p class="label">участников <br>всего за 1 год</p>
+					</div>
+					<div class="col-4">
+						<div class="circle">
+							<span class="spincrement">60000</span><span class="plus">+</span>
+						</div>
+						<p class="label">килограммов, сброшенных <br>только за 12 последних <br>месяцев</p>
+					</div>
+					<div class="col-4">
+						<div class="circle">
+							<span class="spincrement">1750000</span><span class="plus">+</span>
+						</div>
+						<p class="label">гривен врученных призов <br>и подарков</p>
+					</div>
+				</div>
+				<h3>Результаты участников предыдущих сезонов</h3>
+				<div class="results-slider-wrap">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div id="results-slider" class="owl-carousel owl-theme">
+							<div><img src="img/results-slider-pic-1.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-2.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-3.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-4.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-5.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-6.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-7.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-8.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-9.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-10.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-11.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-12.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-13.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-14.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-15.jpg" alt=""></div>
+							<div><img src="img/results-slider-pic-16.jpg" alt=""></div>
+						</div>
+						<a href="#packages" class="btn results-slider__btn">Принять участие</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="the-game">
+            <div class="container clearfix">
+                <h2 class="main-headline th-g__headline">Игра, меняющая тело и ЖИЗНЬ!</h2>
+                <div class="th-g__items-block th-g__items-block--1">
+                    <ul>
+                        <li class="th-g__item th-g__item--1">Эффективные и понятные                   тренировки не требующие посещения спортзала</li>
+                        <li class="th-g__item th-g__item--2">Из оборудования необходим только стул и бутылка с водой</li>
+                        <li class="th-g__item th-g__item--3">Вкусное, простое и полезное меню, а также рецепты питания</li>
+                        <li class="th-g__item th-g__item--4">Агент - твой личный помощник на время игры</li>
+                        <li class="th-g__item th-g__item--5">Поддержка и мотивация от участников и команды проекта</li>
+                    </ul>
+                </div>
+                <div class="th-g__items-block th-g__items-block--2">
+                    <ul>
+                        <li class="th-g__item th-g__item--6">Увлекательные квесты, челенджи и конкурсы</li>
+                        <li class="th-g__item th-g__item--7">Полезная и интересная информация о похудении и ЗОЖ</li>
+                        <li class="th-g__item th-g__item--8">Живое общение в закрытой группе ФБ и личном кабинете</li>
+                        <li class="th-g__item th-g__item--9">Открытая тренировка с боссом</li>
+                        <li class="th-g__item th-g__item--10">Церемония награждения победителей</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="adventure">
+                <div class="container clearfix">
+                    <h2 class="main-headline ad__headline">Мы превратили фитнес 
+                    <br>в захватывающее приключение!</h2>
+                    <div class="ad__item ad__item--1">
+                        <p>Красивое тело без изнурительных тренировок и дорогостоящих занятий на спортивных тренажерах</p>
+                    </div>
+                    <div class="ad__item ad__item--2">
+                        <p>ЖирКиллер - незабываемые 5 недель, которые изменят твою жизнь!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<section class="how-to-kill">
+			<div class="container clearfix">
+				<h2 class="main-headline ho-t__headline">Как уничтожить жир 
+				<br><span>за 35 дней</span></h2>
+				<div class="ho-t__text-author ho-t__text-author--1">
+					<p>Я —<strong>Игорь Обуховский,</strong> экс-тренер проекта 
+						<br><strong>«Зваженi та щасливi»</strong>, автор проекта <strong>
+						<br>«ЖирКиллер»</strong>, <strong>«Міцні Горішки»</strong> 
+						<br>и <strong>«Формы в Норме»</strong>. 
+						<br>Ты можешь назвать меня просто Босс :)</p>
+					</div>
+					<div class="ho-t__text-author ho-t__text-author--2">
+						<p>Я разработал и усовершенствовал 
+						<br>программу, которая уже помогла <strong>20 000 
+						<br>участникам</strong> похудеть, 
+						<br>обрести <strong>тонкую талию</strong>, <strong>стройные бедра</strong> 
+						<br>и <strong>подтянутый живот</strong>. Хочешь на себе 
+						<br>убедиться в ее эффективности?</p>
+					</div>
+					<div class="ho-t__items">
+					   <div class="ho-t__item ho-t__item--1">
+						   <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img1.png" alt="1"></div>
+							<h3>Окунись с головой на 5 недель в мир современного фитнеса</h3>
+							<p>Тебе <strong>не понадобятся</strong> дорогостоящие тренажеры и абонемент в спортзал — просто ежедневно, <strong>в домашних условиях</strong>, выполняй мои несложные упражнения, <strong>не требующие специальной подготовки</strong>.</p>
+						</div>
+						<div class="ho-t__item ho-t__item--2">
+						   <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img2.png" alt="2"></div>
+							<h3>Сделай фото и видео До/После</h3>
+							<p>Если хочешь бороться за призы, на старте и финише проекта сделай по инструкции фото и видео ДО и После. Если конкурсы и призы тебя не интересуют — используй проект просто, как эффективную онлайн фитнес-программу. Ты  не обязана участвовать в  соревнованиях и делать фотографии — ты можешь просто тренироваться и получать результат!</p>
+						</div>
+						<div class="ho-t__item ho-t__item--3">
+						   <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img3.png" alt="3"></div>
+							<h3>Получи рацион питания</h3>
+							<p>Забудь про голодные обмороки и перестань тратить состояние на экзотические продукты для разрекламированных диет! Ты получишь простой и вкусный полноценный рацион питания и книгу рецептов, специально разработанных Боссом и профессиональным диетологом.</p>
+						</div>
+						<div class="ho-t__item ho-t__item--4">
+						   <div class="ho-t__info"><strong>Важно! Конфиденциальность фотографий гарантируется!</strong></div>
+						   <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img4.png" alt="4"></div>
+							<h3>Пользуйся поддержкой агента</h3>
+							<p>На время проекта у тебя будет удобный личный кабинет. Рядом с тобой всегда будет личный ангел-хранитель - твой агент, готовый помочь, посоветовать, подсказать.</p>
+						</div>
+						<div class="ho-t__item ho-t__item--5">
+						 <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img1.png" alt="5"></div>
+							<h3>Выполняй Challenge </h3>
+							<p>Выполняй еженедельный субботний челендж, чтобы оставаться в дерби за главный приз.</p>
+							<p>Увеличь свои шансы на победу, добровольно принимая участие в  специальных квестах и конкурсах.</p>
+							<div class="ho-t__info">Важно! Даже если ты не справишься со специальным заданием, у тебя по-прежнему будет доступ к тренировкам и возможность общаться с агентом.</div>
+						</div>
+						<div class="ho-t__item ho-t__item--6">
+						 <div class="ho-t__photo-wrap">
+							<img src="img/how-to-kill-img6.png" alt="6"></div>
+							<h3>Голосуй и выигрывай призы!</h3>
+							<p>По окончанию проекта прими участие в голосовании за лучшие результаты и поборись за призовой фонд. Голосуют только участники проекта по открытой, прозрачной схеме голосования в несколько этапов. </p>
+							<a href="#packages" class="btn ho-t__btn">Принять участие</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<section class="winners-reward">
+			<div class="container clearfix">
+				<h2 class="main-headline wi-r__headline">А вот так мы награждаем победителей!</h2>
+				<div class="wi-r__vidio-wrap">
+					<img src="img/winners-reward-video.jpg" alt="Видео">
+				</div>
+			</div>
+		</section>
+
+		<section id="part-format" class="part-format">
+		<div class="container clearfix">
+			<div class="part-format__headline">
+				<h2 class="main-headline">Выбери свой формат участия</h2>
+			</div>
+			<div class="part-format__game">                    
+				<div class="hard-game">
+					<p>Дивизион</p>
+					<span>Hard game</span>
+					<ul>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-1000.png" alt="1000"> 
+								<span class="prize-winning">1 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>100 000<span>грн</span></p>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-1">2 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>50 000<span>грн</span></p>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-2">3 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>30 000<span>грн</span></p>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/MacBookAir13.png" alt="MacBookAir13"> 
+								<span class="prize-winning prize-winning-2 prize-winning-2-1">4 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-1">
+								<p>MacBook Air</p>
+								<span>(MMFGF2) 2016</span>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-3">5 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>20 000<span>грн</span></p>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/clock.png" alt="clock"> 
+								<span class="prize-winning prize-winning-4">6 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-1">
+								<p>iWatch Series 2</p>
+								<span>(42мм)</span>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/sportswear.png" alt="sportswear"> 
+								<span class="prize-winning prize-winning-5">7 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-2">
+								<p>Комплект формы<br>New Balance </p>
+								<span>(кроссовки, футболка, шорты или тайсы)</span>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-6">8-20 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p><span>По</span>1 000<span>грн</span></p>
+							</div> 
+						</li>
+					</ul> 
+				</div>
+				<div class="easy-game">
+					<p>Дивизион</p>
+					<span>Easy game</span>
+					<ul>
+						<li>
+							<div class="hard-game__place easy-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-7">1 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>50 000<span>грн</span></p>
+							</div>
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/iphone-7-plus.png" alt="iphone-7-plus"> 
+								<span class="prize-winning prize-winning-8">2 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-1">
+								<p>iPhone 7 Plus</p>
+								<span>128 гб</span>
+							</div> 
+						</li>
+						<li>
+							<div class="hard-game__place easy-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-9">3 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p>15 000<span>грн</span></p>
+							</div>
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/clock.png" alt="clock"> 
+								<span class="prize-winning prize-winning-10">4 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-1">
+								<p>iWatch</p>
+								<span>(42мм)</span>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/sportswear.png" alt="sportswear"> 
+								<span class="prize-winning prize-winning-11">5 место</span>
+							</div>
+							<div class="prize-winning-place prize-winning-place-2">
+								<p>Комплект формы<br>New Balance </p>
+								<span>(кроссовки, футболка, шорты или тайсы)</span>
+							</div> 
+						</li>
+						<li>
+						   <div class="hard-game__place">
+								<img src="img/icon-500.png" alt="500"> 
+								<span class="prize-winning prize-winning-12">6-15 место</span>
+							</div>
+							<div class="prize-winning-place">                                
+								<p><span>По</span>1 000<span>грн</span></p>
+							</div> 
+						</li>
+					</ul>
+					<div class="prize-winning-place__description">
+						<p>Независимо от своего веса, ты можешь выбрать любой дивизион. Разница лишь в призах.</p>
+						<p>А еще в любом дивизионе тебе будут доступны простые и сложные тренировки. <br>Выбор за тобой!</p>
+						<p>Но помни: чем проще упражнения, тем скромнее приз!</p>
+					</div>
+				</div>                    
+			</div>
+			<div class="part-format__game-tablet">
+				<div class="part-format__game-tablet--description">
+					<p>Выбери свой Дивизион</p>
+				</div>
+				<div class="tab">
+					<ul class="tabs">
+						<li><a href="#">Hard game</a></li>
+						<li><a href="#">Easy game</a></li>                        
+					</ul> <!-- / tabs -->
+					<div class="tab_content">
+						<div class="tabs_item">
+							<div class="hard-game">                                
+								<ul>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-1000.png" alt="1000"> 
+											<span class="prize-winning">1 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>100 000<span>грн</span></p>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-1">2 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>50 000<span>грн</span></p>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-2">3 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>30 000<span>грн</span></p>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/MacBookAir13.png" alt="MacBookAir13"> 
+											<span class="prize-winning prize-winning-2 prize-winning-2-1">4 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-1">
+											<p>MacBook Air</p>
+											<span>(MMFGF2) 2016</span>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-3">5 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>20 000<span>грн</span></p>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/clock.png" alt="clock"> 
+											<span class="prize-winning prize-winning-4">6 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-1">
+											<p>iWatch Series 2</p>
+											<span>(42мм)</span>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/sportswear.png" alt="sportswear"> 
+											<span class="prize-winning prize-winning-5">7 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-2">
+											<p>Комплект формы<br>New Balance </p>
+											<span>(кроссовки, футболка, шорты или тайсы)</span>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-6">8-20 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p><span>По</span>1 000<span>грн</span></p>
+										</div> 
+									</li>
+								</ul> 
+							</div>
+						</div> <!-- / tabs_item -->
+						<div class="tabs_item">
+							<div class="easy-game">                                
+								<ul>
+									<li>
+										<div class="hard-game__place easy-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-7">1 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>50 000<span>грн</span></p>
+										</div>
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/iphone-7-plus.png" alt="iphone-7-plus"> 
+											<span class="prize-winning prize-winning-8">2 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-1">
+											<p>iPhone 7 Plus</p>
+											<span>128 гб</span>
+										</div> 
+									</li>
+									<li>
+										<div class="hard-game__place easy-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-9">3 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p>15 000<span>грн</span></p>
+										</div>
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/clock.png" alt="clock"> 
+											<span class="prize-winning prize-winning-10">4 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-1">
+											<p>iWatch</p>
+											<span>(42мм)</span>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/sportswear.png" alt="sportswear"> 
+											<span class="prize-winning prize-winning-11">5 место</span>
+										</div>
+										<div class="prize-winning-place prize-winning-place-2">
+											<p>Комплект формы<br>New Balance </p>
+											<span>(кроссовки, футболка, шорты или тайсы)</span>
+										</div> 
+									</li>
+									<li>
+									   <div class="hard-game__place">
+											<img src="img/icon-500.png" alt="500"> 
+											<span class="prize-winning prize-winning-12">6-15 место</span>
+										</div>
+										<div class="prize-winning-place">                                
+											<p><span>По</span>1 000<span>грн</span></p>
+										</div> 
+									</li>
+								</ul>                                
+							</div> 
+						</div> <!-- / tabs_item -->                                               
+					</div> <!-- / tab_content -->
+				</div> <!-- / tab -->
+				<div class="prize-winning-place__description prize-winning-place__description--tablet">
+					<p>Независимо от своего веса, ты можешь выбрать любой дивизион. Разница лишь в призах.</p>
+					<p>А еще в любом дивизионе тебе будут доступны простые и сложные тренировки. <br>Выбор за тобой!</p>
+					<p>Но помни: чем проще упражнения, тем скромнее результат!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="packages" id="packages">
+		<div class="container clearfix">
+			<div class="packages__headline">
+				<h2 class="main-headline">Выбери свой пакет</h2>
+			</div>
+			<div class="packages-check">
+				<ul>
+					<li>
+						<div class="packages-check__item packages-check__item-1">
+							<h3>Стандарт</h3>
+							<p>5 недель тренировок</p>
+							<p>Pационы питания и книга рецептов</p>
+							<p>Доступ к Личному Кабинету <br>и закрытой группе в Facebook</p>
+							<p>Право на призы</p>
+							<p>Связь с агентом</p>
+							<p>1мес. доступа по окончанию игры</p>
+							<div class="packages-check__value">
+								<p><span><strike>469</strike>&#160;399</span> грн</p>
+								<a href="#" class="btn btn-pakages">Принять участие</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="packages-check__item packages-check__item-2">
+							<h3>Бонус</h3>
+							<p>5 недель тренировок</p>
+							<p>Pационы питания и книга рецептов</p>
+							<p>Доступ к Личному Кабинету <br>и закрытой группе в Facebook</p>
+							<p>Право на призы</p>
+							<p>Связь с агентом</p>                            
+							<p><b>2мес. доступа по окончанию игры</b></p>
+							<p><b>1 иммунитет от вылета*</b> </p>
+							<span>*иммунитет - возможность остаться в гонке<br> за призы при невыполнении челленджа.</span>
+							<div class="packages-check__value">
+								<p><span><strike>657</strike>&#160;559</span> грн</p>
+								<a href="#" class="btn btn-pakages">Принять участие</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="packages-check__item packages-check__item-3">
+							<h3>PRO</h3>
+							<p>5 недель тренировок</p>
+							<p>Pационы питания и книга рецептов</p>
+							<p>Доступ к Личному Кабинету <br>и закрытой группе в Facebook</p>
+							<p>Право на призы</p>
+							<p>Связь с агентом</p>
+							<p><b>3мес. доступа по окончанию игры</b></p>
+							<p><b>Полный иммунитет от вылета</b></p>                            
+							<p><b>Персональное внимание агента</b></p>
+							<p><b>Бесплатное участие в финальной<br> встрече (награждении победителей)</b></p>
+							<p><b>Бесплатное участие в тренировке<br> от Босса в Киеве</b></p>
+							<div class="packages-check__value">
+								<p><span><strike>1257</strike>&#160;1149</span> грн</p>
+								<a href="#" class="btn btn-pakages">Принять участие</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="timer-wrap">
+				<h3>Акционная стоимость действительна</h3>
+				<ul>
+					<li><span id="days"></span>Дней</li>
+					<li><span id="hours"></span>Часов</li>
+					<li><span id="minutes"></span>Минут</li>                    
+					<li class="seconds"><span id="seconds"></span>Секунд</li>                    
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="faq" class="faq">
+		<div class="container clearfix">
+			<div class="faq__headline">
+				<h2 class="main-headline">Вопросы-ответы</h2>
+			</div>
+			<div class="faq-desktop-wrap">
+				<ul>
+					<li>
+						<div class="accordion-head accordion-head-questions">
+							<h3>Общие вопросы</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">Когда стартует и заканчивается проект?</h6>
+								<div class="info">
+									<p class="info_item">Пятый сезон проекта стартует 25 сентября и длится 5 недель.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Сколько раз в неделю необходимо заниматься?</h6>
+								<div class="info">
+									<p class="info_item">С Пн по Пт — ежедневные тренировки. В Пт вечером ты получаешь задание «Challenge day», на выполнение которого у тебя 2 дня. Выполнить его ты можешь в любое удобное для тебя время. В Вс тебя ждет много познавательной информации, как впрочем и каждый день.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Сколько по времени длятся тренировки?</h6>
+								<div class="info">
+									<p class="info_item">В среднем 20-40 минут в день.</p>
+								</div>
+							</div>
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+					<li>
+						<div class="accordion-head accordion-head-report">
+							<h3>Выполнение заданий и отчеты</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">Как я буду получать задания и куда необходимо высылать отчеты?</h6>
+								<div class="info">
+									<p class="info_item">У тебя на нашем сайте будет личный кабинет, где ты будешь ежедневно получать задания и отсылать отчеты.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">До которого часа присылать ежедневные отчеты?</h6>
+								<div class="info">
+									<p class="info_item">Отчет принимают до 23:59 следующего дня. Например, отчет по выполнению задания за ПН принимается до 23:59 вторника.<br> С опозданием даже в 1 секунду он автоматически отклоняется.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Необходимо ли мне ежедневно снимать видео тренировок?</h6>
+								<div class="info">
+									<p class="info_item">Нет, обязательным видеоотчетом является «Challenge day», и то при условии, если ты планируешь участвовать в гонке за призами.</p>
+								</div>
+							</div>
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+					<li>
+						<div class="accordion-head accordion-head-confines">
+							<h3>Ограничения по здоровью</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">Могу ли я посещать дополнительные занятия спортом, тренажерный зал?</h6>
+								<div class="info">
+									<p class="info_item">На твое усмотрение. Некоторые участники прошлого сезона дополнительно посещали.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Позволяет ли мое здоровье выполнять тренировки проекта?</h6>
+								<div class="info">
+									<p class="info_item">Если ты задаешь такой вопрос, то настоятельно рекомендуем проконсультироваться со своим лечащим доктором.<br>
+									Сообщить, что ближайшие 5 недель ты планируешь интенсивно тренироваться. А еще лучше пройти стандартную медкомиссию. На основе этих данных ты найдешь ответ на свой вопрос. Могу заверить - тренировки подобраны таким образом, что позволяют большинству выполнять их в полной мере без вреда для здоровья.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Могу ли я принимать участие, если имею хроническое заболевание?</h6>
+								<div class="info">
+									<p class="info_item">В таких случаях Босс рекомендует перед началом тренировок, проконсультироваться со своим лечащим доктором.</p>
+								</div>
+							</div>
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<div class="accordion-head accordion-head-food">
+							<h3>Особенности питания</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">Как будет составляться план по питанию?</h6>
+								<div class="info">
+									<p class="info_item">В личном кабинете участника, во вкладке «Подготовка по питанию» с помощью специального модуля, ты введешь свои данные и система автоматически просчитает твою суточную потребность калорий с балансом (БЖУ). На основе чего, ты получишь полноценный рацион питания на день в PDF документе.<br> Дополнительно будет книга рецептов вкусных и полезных блюд от участников прошлого сезона и Босса.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Если я вегетарианец, подойдет ли мне питание в проекте?</h6>
+								<div class="info">
+									<p class="info_item">Ты можешь использовать в своем рационе те продукты питания, которые можешь употреблять соблюдая суточную норму потребления белков, жиров и углеводов которую мы просчитываем на основе твоего рациона.</p>
+								</div>
+							</div>                            
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+					<li>
+						<div class="accordion-head accordion-head-voting">
+							<h3>Голосование и призы</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">По каким причинам я могу выбыть из борьбы за призы?</h6>
+								<div class="info">
+									<p class="info_item">1. Если ты не прислал фото «до/после».<br> 2. Если не выполнил еженедельные «Challenge day».</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Как проходит голосование и определяется победитель?</h6>
+								<div class="info">
+									<p class="info_item">Голосование проходит в 3 этапа на основе присылаемых для отбора фото «до/после» от всех участников, которые хотят побороться за призы.<br> <b>В первом этапе</b> принимают участие те, кто вовремя прислал фото «до/после» в правильном формате, выполнил все «Challenge day» и прошел их. Голосование проводится только между участниками игры.<br> <b>Во второй этап</b> проходят участники, которые набрали больше всего голосов в первом этапе. <br><b>В финал</b> попадают 50-100 лучших участников (в зависимости от количества участников).<br> Подробнее о голосовании, всех правилах его проведения ты узнаешь из видео в личном кабинете, где Босс по пунктам разберет все моменты.</p>
+								</div>
+							</div>                            
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+					<li>
+						<div class="accordion-head accordion-head-different-countries">
+							<h3>Участники из разных стран</h3>
+						</div>
+						<!-- блок аккордеон -->
+						<div class="accordion">
+							<div class="accordion_item">
+								<h6 class="title_block">Можно ли принимать участие в проекте жителям других стран?</h6>
+								<div class="info">
+									<p class="info_item">Да, в любой стране, в любом населенном пункте ты можешь принимать участие в проекте. Все, что тебе необходимо, — это желание и доступ к интернету.</p>
+								</div>
+							</div>
+							<div class="accordion_item">
+								<h6 class="title_block">Как я смогу оплатить участие в проекте, если не проживаю в Украине?</h6>
+								<div class="info">
+									<p class="info_item">Ты сможешь оплатить участие на карту либо через платежную систему на сайте проекта. Если ни один из предложенных способов тебе не подойдет, напиши в онлайн-поддержку или на почту <a href="mailto:info@zhirkiller.info">info@zhirkiller.info</a></p>
+								</div>
+							</div>                            
+						</div>
+						<!-- конец блока аккордеон -->
+					</li>
+				</ul>                               
+			</div>
+			<div class="faq-tablet-wrap">
+				<div class="faq-accordion">
+					<div class="accordion-item active">
+						<a href="#" class="heading">                            
+							<div class="title">
+								<div class="accordion-head accordion-head-questions">
+									<h3>Общие вопросы</h3>
+								</div>
+							</div>
+						</a>
+						<div class="faq-accordion-content" style="display: block;">
+							<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">Когда стартует и заканчивается проект?</h6>
+									<div class="info">
+										<p class="info_item">Пятый сезон проекта стартует 25 сентября и длится 5 недель.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Сколько раз в неделю необходимо заниматься?</h6>
+									<div class="info">
+										<p class="info_item">С Пн по Пт — ежедневные тренировки. В Пт вечером ты получаешь задание «Challenge day», на выполнение которого у тебя 2 дня. Выполнить его ты можешь в любое удобное для тебя время. В Вс тебя ждет много познавательной информации, как впрочем и каждый день.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Сколько по времени длятся тренировки?</h6>
+									<div class="info">
+										<p class="info_item">В среднем 20-40 минут в день.</p>
+									</div>
+								</div>
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+					<div class="accordion-item">
+						<a href="#" class="heading">
+							<div class="accordion-head accordion-head-report">
+								<h3>Выполнение заданий и отчеты</h3>
+							</div>
+						</a>
+						<div class="faq-accordion-content">
+							<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">Как я буду получать задания и куда необходимо высылать отчеты?</h6>
+									<div class="info">
+										<p class="info_item">У тебя на нашем сайте будет личный кабинет, где ты будешь ежедневно получать задания и отсылать отчеты.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">До которого часа присылать ежедневные отчеты?</h6>
+									<div class="info">
+										<p class="info_item">Отчет принимают до 23:59 следующего дня. Например, отчет по выполнению задания за ПН принимается до 23:59 вторника.<br> С опозданием даже в 1 секунду он автоматически отклоняется.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Необходимо ли мне ежедневно снимать видео тренировок?</h6>
+									<div class="info">
+										<p class="info_item">Нет, обязательным видеоотчетом является «Challenge day», и то при условии, если ты планируешь участвовать в гонке за призами.</p>
+									</div>
+								</div>
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+					<div class="accordion-item">
+						<a href="#" class="heading">
+							<div class="accordion-head accordion-head-confines">
+								<h3>Ограничения по здоровью</h3>
+							</div>
+						</a>
+						<div class="faq-accordion-content">
+							<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">Могу ли я посещать дополнительные занятия спортом, тренажерный зал?</h6>
+									<div class="info">
+										<p class="info_item">На твое усмотрение. Некоторые участники прошлого сезона дополнительно посещали.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Позволяет ли мое здоровье выполнять тренировки проекта?</h6>
+									<div class="info">
+										<p class="info_item">Если ты задаешь такой вопрос, то настоятельно рекомендуем проконсультироваться со своим лечащим доктором.<br>
+										Сообщить, что ближайшие 5 недель ты планируешь интенсивно тренироваться. А еще лучше пройти стандартную медкомиссию. На основе этих данных ты найдешь ответ на свой вопрос. Могу заверить - тренировки подобраны таким образом, что позволяют большинству выполнять их в полной мере без вреда для здоровья.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Могу ли я принимать участие, если имею хроническое заболевание?</h6>
+									<div class="info">
+										<p class="info_item">В таких случаях Босс рекомендует перед началом тренировок, проконсультироваться со своим лечащим доктором.</p>
+									</div>
+								</div>
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+					<div class="accordion-item">
+						<a href="#" class="heading">
+							<div class="accordion-head accordion-head-food">
+								<h3>Особенности питания</h3>
+							</div>
+						</a>
+						<div class="faq-accordion-content">
+								<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">Как будет составляться план по питанию?</h6>
+									<div class="info">
+										<p class="info_item">В личном кабинете участника, во вкладке «Подготовка по питанию» с помощью специального модуля, ты введешь свои данные и система автоматически просчитает твою суточную потребность калорий с балансом (БЖУ). На основе чего, ты получишь полноценный рацион питания на день в PDF документе.<br> Дополнительно будет книга рецептов вкусных и полезных блюд от участников прошлого сезона и Босса.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Если я вегетарианец, подойдет ли мне питание в проекте?</h6>
+									<div class="info">
+										<p class="info_item">Ты можешь использовать в своем рационе те продукты питания, которые можешь употреблять соблюдая суточную норму потребления белков, жиров и углеводов которую мы просчитываем на основе твоего рациона.</p>
+									</div>
+								</div>                                
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+					<div class="accordion-item">
+						<a href="#" class="heading">
+							<div class="accordion-head accordion-head-voting">
+								<h3>Голосование и призы</h3>
+							</div>
+						</a>
+						<div class="faq-accordion-content">
+							<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">По каким причинам я могу выбыть из борьбы за призы?</h6>
+									<div class="info">
+										<p class="info_item">1. Если ты не прислал фото «до/после».<br> 2. Если не выполнил еженедельные «Challenge day».</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Как проходит голосование и определяется победитель?</h6>
+									<div class="info">
+										<p class="info_item">Голосование проходит в 3 этапа на основе присылаемых для отбора фото «до/после» от всех участников, которые хотят побороться за призы.<br> <b>В первом этапе</b> принимают участие те, кто вовремя прислал фото «до/после» в правильном формате, выполнил все «Challenge day» и прошел их. Голосование проводится только между участниками игры.<br> <b>Во второй этап</b> проходят участники, которые набрали больше всего голосов в первом этапе. <br><b>В финал</b> попадают 50-100 лучших участников (в зависимости от количества участников).<br> Подробнее о голосовании, всех правилах его проведения ты узнаешь из видео в личном кабинете, где Босс по пунктам разберет все моменты.</p>
+									</div>
+								</div>
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+					<div class="accordion-item">
+						<a href="#" class="heading">
+							<div class="accordion-head accordion-head-different-countries">
+								<h3>Участники из разных стран</h3>
+							</div>
+						</a>
+						<div class="faq-accordion-content">
+							<!-- блок аккордеон -->
+							<div class="accordion">
+								<div class="accordion_item">
+									<h6 class="title_block">Можно ли принимать участие в проекте жителям других стран?</h6>
+									<div class="info">
+										<p class="info_item">Да, в любой стране, в любом населенном пункте ты можешь принимать участие в проекте. Все, что тебе необходимо, — это желание и доступ к интернету.</p>
+									</div>
+								</div>
+								<div class="accordion_item">
+									<h6 class="title_block">Как я смогу оплатить участие в проекте, если не проживаю в Украине?</h6>
+									<div class="info">
+										<p class="info_item">Ты сможешь оплатить участие на карту либо через платежную систему на сайте проекта. Если ни один из предложенных способов тебе не подойдет, напиши в онлайн-поддержку или на почту <a href="mailto:boss@zhirkiller.info">boss@zhirkiller.info</a></p>
+									</div>
+								</div>
+							</div>
+							<!-- конец блока аккордеон -->
+						</div>
+					</div>
+				</div>
+			</div>            
+			<div class="faq-contract-offer">
+				<a href="#modal-2" class="btn btn-contract-offer">Правила участия / Договор-оферта</a>
+			</div> 
+		</div>
+	</section>
+
+	<section class="partners">
+		<div class="container clearfix">
+			<div class="partners__headline">
+				<h3>Партнеры проекта</h3>
+			</div>
+			<div class="partners__slider">
+				<div id="slider-1" class="owl-carousel owl-theme">
+					<div>
+						<div class="partner__slider--slide">
+							<img src="img/partners-logo-1.jpg" alt="Партнеры проекта">
+						</div>
+					</div>
+					<div>
+						<div class="partner__slider--slide">
+							<img src="img/partners-logo-2.jpg" alt="Партнеры проекта">
+						</div>
+					</div>
+					<div>
+						<div class="partner__slider--slide">
+							<img src="img/partners-logo-3.jpg" alt="Партнеры проекта">
+						</div>
+					</div>
+					<div>
+						<div class="partner__slider--slide">
+							<img src="img/our_radio1.svg" alt="Партнеры проекта">
+						</div>
+					</div>         
+				</div>
+			</div>            
+		</div>
+	</section>
+
+	<section class="ready">
+		<div class="container clearfix">
+		   <div class="ready__headline">
+				<h2 class="main-headline">А ты готова сказать жиру «Прощай»?</h2>
+			</div>
+			<div class="ready__btn-wrap">
+				<a href="#packages" class="btn btn-ready">Принять участие</a>
+			</div>
+		</div>
+	</section>        
+
+	<footer class="main-footer">            
+		<div class="container clearfix">
+			<div class="main-footer__logo">
+				<img src="img/logo-bottom.png" alt="logo">
+			</div>
+			<div class="main-footer-content">
+				<ul>
+					<li>
+						<div class="main-footer-content__description">
+							<p>По всем вопросам и предложениям:</p>
+						</div>
+					</li>
+					<li>
+						<div class="main-footer-content__phone"><i class="fa fa-phone" aria-hidden="true"></i>
+							<a href="tel:+380639590827">+38 063 959 08 27</a>
+							<i class="fa fa-phone" aria-hidden="true">
+							<a href="tel:+380673348589"></i>+38 067 334 85 89</a>
+						</div>
+					</li>
+					<li>
+						<div class="main-footer-content__email"><i class="fa fa-envelope" aria-hidden="true"></i>
+							<a href="mailto:info@zhirkiller.info">info@zhirkiller.info</a>
+						</div>
+					</li>
+					<li>
+						<div class="main-footer-content__protection">
+							<p>Все права защищены <a href="http://www.zhirkiller.com">www.zhirkiller.com</a></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+<!-- Модальное окно -->
+<div class="remodal" data-remodal-id="modal" role="dialog">
+	<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+	<div>
+		<h2>Заполните форму</h2>
+		<p>и наш специалист свяжется с Вами в течение 15 минут</p>
+		<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
+		    <!-- Hidden Required Fields -->
+		    <input type="hidden" name="project_name" value="vilar-agro">
+		    <input type="hidden" name="admin_email" value="vilaragro@gmail.com">
+		    <input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+		    <!-- END Hidden Required Fields -->   
+		    <div class="input-group">
+			   <input type="text"  name="name" placeholder="Ваше имя" required>
+		    </div>
+			<div class="input-group">
+			 <input type="email"  name="email" placeholder="Ваш e-mail" required>
+			</div>
+			<div class="input-group">
+			<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+			</div> 
+			<input type="hidden"  name="s_formi" value="Получить консультацию">
+			<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
+		</form>
+	</div>
+	<br>
+</div>
+<!-- Конец Модальное окно  -->
+<!--  модальное окно политика конфиденциальности -->
+<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog">
+	<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+	<div id="policy" class="mfp-hide white-popup-block">
+		<div class="policy-confidential">
+			<h3>ДОГОВІР ПУБЛІЧНОЇ ОФЕРТИ</h3>
+			<h3>ПРО НАДАННЯ ПОСЛУГ У КОНКУРСІ «ЖИРКІЛЛЕР»</h3>
+			<p>Цей документ є офіційною публічною пропозицією (далі по тексту - Договір, Оферта) конкурсу «ЖирКіллер» (далі по тексту - Конкурс), проводиться приватним підприємцем Обуховським І.С., іменованим надалі «Виконавець» (далі по тексту також - Організатор) і споживачем послуг, що має надалі назву «Замовник» (далі по тексту також - Учасник Конкурсу), який прийняв (акцептував) публічну пропозицію (оферту) про укладення данного Договору надавати інформаційні послуги на нижче викладених умовах:</p>
+			<h5>1. ТЕРМІНИ</h5>
+			<p>1.1. Послуги – комплекс методичних рекомендацій Виконавця, спрямованих на досягнення заданих спортивних показників, формування стійкого спортивного прогресу Замовника.</p>
+			<p>1.2. Публічна оферта – пропозиція Виконавця (викладена на Сайті Виконавця), адресована необмеженому колу суб’єктів розкриття інформації, укласти даний Договір на визначених умовах. </p>
+			<p>1.3. Акцепт – повне, безумовне та беззастережне прийняття Замовником умов Публічної оферти даного Договору та Правил надання відповідних Послуг. </p>
+			<p>1.5. Замовник - фізична особа, досягнувша 18 років, яка прийняла всі умови цього Договору і уклала цей Договір з Виконавцем на умовах даної оферти.</p>
+			<p>1.6. Виконавець – приватний підприємець в особі Обуховського І.С.</p>
+			<p>1.7. Сторони – Абонент та Виконавець.</p>
+			<p>1.8. Правила надання відповідних Послуг – умови надання Послуг, які обираються Абонентом в рамках цього Договору, є його невід’ємною частиною та є єдиним джерелом врегулювання всіх відносин між Абонентом та Виконавцем, що виникають в процесі надання Послуг. Всі рекламні, презентаційні та інші матеріали, що створені та існують з метою розвитку Виконавця, носять лише інформаційно-довідковий характер і не є джерелом врегулювання всіх умов надання Послуг. 1.9. Заявка - намір Замовника скористатися послугами Виконавця, виражене в напрямку електронного запиту за встановленою формою на Сайті Виконавця. </p>
+			<p>1.9. Прийняття - повне і беззастережне прийняття всіх умов даної Оферти Замовником.</p>
+			<p>1.10. Технології дистанційного надання інформаційних послуг - надання інформаційних послуг дистанційно з використанням мережі Інтернет (повністю або частково).</p>
+			<p>1.11. Особистий кабінет - веб-сторінка під назвою «Особистий кабінет», що знаходиться на сайті Виконавця та містить статистичну інформацію про обсяг отриманих послуг, а також інформацію про поточний статус проходження інформаційного курсу.</p>
+			<p>1.12. Cайт Виконавця – веб-сторінка в мережі Інтернет, за адресою www.zhirkiller.com , яка є офіційним джерелом інформування Замовника про Виконавця та послуги, що ним надаються. </p>
+			<h5>2. ПРЕДМЕТ ДОГОВОРУ ТА ОПЛАТА ПОСЛУГ</h5>
+			<p>2.1. В соНадання послуг за цим Договором здійснюється в рамках участі Замовником у відкритому публічному конкурсі «ЖірКіллер» (далі- Конкурс), умови якого передбачені Правилами проведення відкритого дистанційного публічного конкурсу «ЖірКіллер» (далі - Правила участі), що є невід'ємною частиною цього Договору, для досягнення найбільш оптимальних спортивних результатів і відповідають цілям проведення зазначеного конкурсу. </p>
+			<p>2.2. Відповідно до умов цього Договору, Виконавець зобов'язується надати Замовнику послуги з організації доступу до інформаційних матеріалів у сфері здорового способу життя, фітнесу та правильного харчування (далі по тексту - Послуги). Замовник зобов'язується прийняти запитані послуги та оплатити їх.</p>
+			<p>2.3. Вартість і докладний опис Послуг, а також Правила опубліковані офіційно на сайті www.zhirkiller.com і є додатками до цієї Оферті. Вартість послуг за цим договором включена у вартість участі в конкурсі.</p>
+			<p>2.4. Цей Договір, а також всі зміни та доповнення до цього Договору є відкритими документами і опубліковані для загального відома на Сайті Виконавця.</p>
+			<h5>3. АКЦЕПТ ОФЕРТИ</h5>
+			<p>3.1. Укладення договору на надання Послуг проводиться шляхом Акцепту Оферти на викладених в ньому умовах протягом дії терміну Акцепту. </p>
+			<p>3.2. Акцептом оферти, тобто беззастережним прийняттям Замовником умов цього Договору є оплата Послуг і письмового отримання Виконавцем відповідного платіжного документа від Замовника, що підтверджують факт оплати.</p>
+			<p>3.3. Акцепт Замовником проводиться не пізніше дати початку Конкурсу, встановленої Правилами, шляхом внесення готівкових коштів на розрахунковий рахунок виконавця.</p>
+			<p>3.4. Здійснюючи акцепт цього Договору, Замовник гарантує, що ознайомлений, погоджується, повністю і беззастережно приймає всі умови Договору та Правил в тому вигляді, в якому вони викладені в тексті Договору та Правил. </p>
+			<p>3.5. Цей Договір не вимагає скріплення печатками і (або) підписання Сторонами, зберігаючи при цьому повну юридичну силу.</p>
+			<h5>4. УМОВИ І ПОРЯДОК НАДАННЯ ПОСЛУГ</h5>
+			<p>4.1. Послуги, зазначені в п.2.1 данного Договору, надаються Замовнику дистанційно шляхом передачі Замовнику інформаційних матеріалів і проведенням консультацій в порядку і на умовах, встановлених цією главою, а також за допомогою телекомунікаційної мережі Інтернет через Особистий кабінет Замовника.</p>
+			<p>4.2. При намірі скористатися послугами Виконавця Замовник заповнює і відправляє на Сайті Виконавця Заявку із зазначенням достовірних персональних даних. При заповненні Заявки Замовник засвідчує, що безумовно і в повному обсязі приймає умови Оферти, про що ставить відповідну позначку про згоду з усіма умовами оферти.</p>
+			<p>4.3. Замовник починає отримувати надавані Виконавцем Послуги після внесення Замовником на розрахунковий рахунок Виконавця коштів для оплати Послуг.</p>
+			<p>4.4. Після акцепту данної Оферти, так само як і внесення оплати за Послуги, Замовник отримує доступ до Особистого кабінету на Сайті Виконавця і в подальшому зобов'язується беззастережно приймати Послуги Виконавця - виконуючи поставлені завдання в порядку і строки, обумовлені цим Договором та інформацією на сайті www.zhirkiller.com, який є додатком до цього договору.</p>
+			<p>4.5. Взаємодія Сторін здійснюється через Особистий кабінет Замовника. Виконавець отримує завдання, рекомендації та роз'яснення Виконавця у відповідних розділах Особистого кабінету і самостійно визначає спосіб і час для їх виконання відповідно до умов Правил Конкурсу та з огляду на умови конкурсних завдань. </p>
+			<p>4.6. Послуги вважаються наданими належним чином і в повному обсязі за Договором з моменту отримання Замовником в Особистому кабінеті інформаційних матеріалів Виконавця. У разі виключення Замовника з числа учасників конкурсу, цей Договір вважається розірваним. У разі, якщо Замовник не був допущений до участі в Конкурсі, згідно з умовами Правил Конкурсу, цей договір вважається неукладеним.</p>
+			<p>4.7. Будь-які матеріали, отримані Замовником по електронній пошті або опубліковані на Сайті, призначені для приватного некомерційного використання. Замовник не має права копіювати, передавати, надсилати поштою, і/або видавати матеріали з Сайту і інформаційних і/або аналітичних продуктів без письмового дозволу Виконавця, а також не має права використовувати їх для масового поширення. </p>
+			<p>4.8. Сторони визнають, що документи, надіслані за допомогою електронної пошти чи іншими електронними засобами зв'язку, в тому числі за допомогою Особистого кабінету, мають юридичну силу, рівноцінну документами при звичайному паперовому документообігу. </p>
+			<h5>5.ПРАВА ТА ОБОВ’ЯЗКИ СТОРІН</h5>
+			<p><b>5.1. Замовник має право:</b> <p>
+			<p>5.1.1. Отримувати від Виконавця інформацію з питань організації та забезпечення належного надання послуг. </p>
+			<p>5.1.2. Вимагати належного і своєчасного надання Послуг Виконавцем.</p>
+			<p>5.1.3. Звертатися до Виконавця в письмовій формі з усіх питань, пов'язаних з наданням Послуг, а також задавати питання, пов'язані з наданням Послуг.</p>
+			<p><b>5.2. Замовник зобов’язується:</b></p>
+			<p>5.2.1. Погоджуючись з умовами та приймаючи умови цієї Оферти шляхом Акцепту Оферти, Замовник запевняє і гарантує Виконавцю, що:</p>
+			<p>• Замовник вказав достовірні персональні дані;</p>
+			<p>• Замовник укладає договір Оферти добровільно, при цьому Замовник повністю ознайомився з умовами Оферти, повністю розуміє предмет Оферти і характер наданих Послуг, повністю розуміє значення і наслідки своїх дій щодо укладеного Договору і впевнений у відсутності можливих негативних наслідків по відношенню до власного фізичного здоров'я при використанні інформаційних матеріалів, участь у Конкурсі та виконанні конкурсних спортивних завдань.</p>
+			<p>5.2.2. Замовник зобов'язується не використовувати інформацію, отриману від Виконавця способами, здатними привести до нанесення збитку інтересам Виконавця.</p>
+			<p>5.2.3. Не допускати користування Послугами сторонніх осіб, якщо інше прямо не передбачено положеннями даного Договору та Правилами надання відповідних Послуг. </p>
+			<p><b>5.3. Виконавець має право: </b></p>
+			<p>5.3.1. Виконавець має право включити Замовника в список поштової розсилки для подальшого поширення матеріалів по обраному курсу або для розсилки інших інформаційних матеріалів. </p>
+			<p>5.3.2. Виконавець має право припинити надання послуг Замовнику та припинити дію цього Договору в односторонньому порядку в разі порушення Замовником своїх зобов'язань відповідно до цього Договору, а також у зв'язку з виключенням з числа учасників Конкурсу, згідно з правилами. Виконавець також має право в односторонньому порядку відмовитися від надання послуг за договором в односторонньому порядку, письмово повідомивши про це Замовника.</p>
+			<p>5.3.3. Виконавець має право змінювати вартість Послуг та інші умови даної публічної Оферти без попереднього узгодження з Замовником, забезпечуючи при цьому публікацію змінених умов на Інтернет-ресурсах, не менше ніж за 10 днів до їх введення в дію. </p>
+			<p>5.3.4. Виконавець має право самостійно визначати форми і методи надання Послуг виходячи з вимог законодавства, а також конкретних умов Договору. </p>
+			<p><b>5.4. Виконавець зобов’язується:</b></p>
+			<p>5.4.1. Виконавець зобов'язується надати в повному обсязі і в строк Інформаційні матеріали за цим Договором.</p>
+			<p>5.4.2. Виконавець зобов'язується інформувати Замовника про всі зміни в умовах надання послуг і про всі доповнення в термін, передбачений цим Договором.</p>
+			<p>5.4.3. Виконавець бере на себе обов'язок надавати на запит Замовника доступ до інформації про надання послуг.</p>
+			<p>5.4.4. Виконавець зобов'язується використовувати всі особисті дані і іншу конфіденційну інформацію про Замовника тільки для надання Послуг, не передавати і не показувати третім особам, що знаходиться у нього документацію та інформацію про Замовника.</p>
+			<p><b>5.5. Виконавець гарантує, що:</b></p>
+			<p>5.5.1. Замовнику надання інформаційних послуг і виконання покладених на себе зобов'язань за цим Договором у повному обсязі. </p>
+			<p>5.5.2 При оплаті замовлення банківською картою, обробка платежу (включаючи введення номера карти) відбувається на захищеній сторінці процессинговой системи, яка пройшла міжнародну сертифікацію. Це означає, що Ваші конфіденційні дані (реквізити карти, реєстраційні дані та ін.) не надходять в інтернет-магазин, їх обробка повністю захищена і ніхто, в тому числі наш сайт, не може отримати персональні і банківські дані клієнта. При роботі з картковими даними застосовується стандарт захисту інформації, розроблений міжнародними платіжними системами Visa і MasterCard - Payment Card Industry Data Security Standard (PCI DSS), що забезпечує безпечну обробку реквізитів Банківської карти Власника. Застосовувана технологія передачі даних гарантує безпеку по операціях з Банківськими картами шляхом використання протоколів Secure Sockets Layer (SSL), Verified by Visa, Secure Code, і закритих банківських мереж, що мають вищий ступінь захисту. При оплаті замовлення банківською картою повернення коштів здійснюється на карту, з якої був здійснений платіж.</p>
+			<p><b>5.6. Сторони підтверджують, що: </b></p>
+			<p>5.6.1. Кожна Сторона данного Договору заявляє і гарантує, що вона має всі права і повноваження, необхідні для укладення цього Договору та повного виконання своїх зобов'язань по ньому, і що висновок і / або виконання зобов'язань за Договором не порушить умови будь-яких інших зобов'язань цієї Сторони перед третіми особами.</p>
+			<h5>6. ВІДПОВІДАЛЬНІСТЬ СТОРІН</h5>
+			<p>6.1. За невиконання або неналежне виконання зобов'язань за цим Договором Сторони несуть відповідальність відповідно до Договору та законодавства України. </p>
+			<p>6.2. Приймаючи умови цього Договору, Замовник розуміє, що Виконавець не несе ніяких ризиків щодо розуміння Замовником методичних рекомендацій, викладених в інформаційних і (або) аналітичних матеріалах, а також рекомендаціях. Всі методичні рекомендації та поради, викладені в направляємих Виконавцем матеріалах, повинні бути застосовувані Замовником виключно на власний розсуд. Всі ризики за наслідки застосування отриманої інформації в повній мірі несе Замовник. </p>
+			<p>6.3. Виконавець звільняється від відповідальності за невиконання або неналежне виконання цього Договору в разі будь-якого неякісного функціонування обладнання, програмного забезпечення та каналів зв'язку, що знаходяться за межами ресурсів інтернет-сайту www.zhirkiller.com , викликаного технологічними причинами або діями/бездіяльністю третіх осіб. </p>
+			<p>6.4. Сукупна відповідальність Виконавця за договором Оферти, по будь-якиму позову або претензії щодо договору Оферти або його виконання, обмежується сумою платежу, сплаченого Виконавцю Замовником за договором Оферти.</p>
+			<h5>7. ОБСТАВИНИ НЕПЕРЕБОРНОЇ СИЛИ</h5>
+			<p>7.1. Сторони звільняються від відповідальності за часткове або повне невиконання зобов'язань за цим Договором, якщо це невиконання стало наслідком обставин непереборної сили, що виникли після укладення цього Договору внаслідок обставин надзвичайного характеру, які Сторони не могли передбачити або запобігти, а саме: пожежа, стихійне лихо, війна і військові дії всіх видів, цивільні і національні хвилювання, блокада транспорту, прийняття органами влади і управління актів, що перешкоджають виконанню умов цього Договору та інші обставини, що знаходяться поза розумним контролем Сторони, а так само збої, що виникають в телекомунікаційних і енергетичних мережах.</p>
+			<p>7.2. Сторона, яка потрапила під дії обставин непереборної сили, зобов'язана негайно, протягом 3 (трьох) робочих днів, в письмовій формі повідомити іншу Сторону про настання таких обставин з наданням документа уповноваженого державного органу про передбачуваний термін їх дії і припинення дії.</p>
+			<p>7.3. У разі виникнення обставин непереборної сили термін виконання зобов'язань за цим Договором відсувається відповідно до часу, протягом якого діють такі обставини і їх наслідки. Якщо обставини непереборної сили будуть існувати понад 3 (трьох) місяців поспіль, будь-яка Сторона матиме право розірвати Договір в односторонньому порядку. </p>
+			<h5>8. ІНШІ УМОВИ</h5>
+			<p>8.1. Жодна із Сторін не може переуступити свої права та обов'язки за Договором третім особам.</p>
+			<p>8.2. Виконавець залишає за собою право внести зміни в умови Оферти і/або відкликати Оферту в будь-який момент на свій розсуд. У разі внесення Виконавцем змін в Оферту, такі зміни вступають в силу з моменту розміщення відповідного повідомлення на сайті. </p>
+			<p>8.3. Замовник погоджується і визнає, що внесення змін до Оферту тягне за собою внесення цих змін до укладеного і діючий між Замовником та Виконавцем Договір, і ці зміни в Договорі вступають в силу одночасно з такими змінами в Оферті. </p>
+			<p>8.4. У разі відкликання Оферти Виконавцем протягом терміну дії Договору, Договір вважається припиненим з моменту відкликання, якщо інше не обумовлено Виконавцем при відкликанні Оферти. 8.5. Договір може бути розірваний за згодою Сторін в будь-який час або з інших підстав, передбачених цією Офертою і/або чинним Закон одавством України.</p>
+			<p>8.5. Претензійний порядок вирішення спорів обов'язковий. Термін відповіді на претензію встановлений в 30 календарних днів з моменту її отримання.</p>
+			<p>8.6. У разі неможливості вирішення суперечок і розбіжностей шляхом переговорів, їх врегулювання і розгляд проводиться в суді за місцем знаходження Виконавця, відповідно до чинного законодавства України.</p>
+			<p>8.7. Цей Договір припиняє свою дію після повного виконання Сторонами своїх зобов'язань в рамках публічного конкурсу, згідно Правилам. </p>
+		</div>
+		<div class="policy-confidential policy-confidential-1">
+			<h3>ПРАВИЛА</h3>
+			<h3>проведення відкритого дистанційного публічного конкурсу в рамках проекту «ЖИРКІЛЛЕР»</h3>
+			<h5>1. 1. ЗАГАЛЬНІ ПОЛОЖЕННЯ</h5>
+			<p><b>1.1. Загальні умови</b></p>
+			<p>1.1.1. Правила надання послуг популяризація здорового і активного способу життя (надалі – іменується «Правила») – це умови надання Виконавцем послуг популяризація здорового і активного способу життя (далі – Послуги), що відповідають положенням Договору публічної оферти про надання послуг (далі – Договір), текст якого розміщений на офіційному веб-сайті Виконавця за адресою www.zhirkiller.com.</p>
+			<p>1.1.2. Відкритий дистанційний публічний конкурс під назвою «ЖирКіллер» (далі по тексту - Конкурс) проводиться Індивідуальним підприємцем Обухівським І.С. (далі по тексту цих Правил - Виконавець).</p>
+			<p>1.1.3. Конкурс проводиться дистанційно за правилами відкритого публічного конкурсу без попередньої кваліфікації учасників. Оголошення про Конкурс, а також інформація про організатора, правилах проведення конкурсу, кількості призів за результатами конкурсу, терміни, місце і порядок їх отримання розміщується на сайті: www.zhirkiller.com (далі по тексту - Сайт).</p>
+			<p>1.1.4. Особам, визнаним переможцями відповідно до цих Правил (далі по тексту цих Правил - Переможці конкурсу) вручають призи, встановлені в розділі 4.3 цих правил (далі по тексту цих Правил - Нагорода).</p>
+			<p>1.1.5. Конкурс проводиться дистанційно на сайті www.zhirkiller.com. </p>
+			<p>1.1.6. Організатор при проведенні даного Конкурсу ставить перед собою наступні суспільно-корисні цілі: популяризація здорового і активного способу життя, залучення громадян до здорового способу життя.</p>
+			<p><b>1.2. Визначення та терміни, що використовуються в Правилах </b></p>
+			<p>1.2.1. Особистий кабінет – веб-сторінка Учасника, з доступною інформацією про його досягнення, що використовується Виконавцем з метою визначення результатів участі у Конкурсі.</p>
+			<p>1.2.2. <i>Інформація</i> – інформація, що підлягає розміщенню на сайті Виконавця з метою популяризація здорового і активного способу життя. </p>
+			<p>1.2.3. <i>Учасник</i> – суб'єкт розкриття, який акцептував Публічну оферту Виконавця, викладену у цьому Договорі та оплатив вартість Послуг.</p>
+			<p>1.2.4. <i>Виконавець</i> – приватний підприємцем в особі Обуховського І.С. </p>
+			<p>1.2.5. <i>Сторони</i> – Абонент та Виконавець. </p>
+			<p>1.2.6. <i>Cайт Виконавця</i> – веб-сторінка в мережі Інтернет, за адресою www.zhirkiller.com, яка є основним джерелом інформування Учасників. </p>
+			<p>1.2.7. <i>Публічна оферта</i> – пропозиція Виконавця (викладена на Сайті Виконавця), адресована невизначеному колу суб’єктів, укласти Договір на визначених умовах.</p>
+			<p>1.2.8. <i>Акцепт</i> – повне, безумовне та беззастережне прийняття Учасником умов Публічної оферти даного Договору та цих Правил. Акцепт здійснюється шляхом: <br>- оплати грошових коштів на банківський рахунок Виконавця в якості оплати Послуг.</p>
+			<p>1.2.9. <i>Код доступу</i> – унікальний код, що присвоюється Виконавцем Учаснику для доступу до Особистого кабінету на підставі цього Договору. </p>
+			<p>1.2.10. <i>Особистий профіль учасника</i> – сторінка, що містить інформацію про Учасника, генерується в Особистому кабінеті Учасника.</p>
+			<p>1.2.11. <i>Організаційні листи</i> –будь-які листи з боку Виконавця Учаснику з метою інформування.</p>
+			<p><b>1.3. Загальні умови надання Послуг</b></p>
+			<p>1.3.1. Для того щоб стати Учасником Конкурсу та претендувати на отримання Нагороди Конкурсу, особі, яка відповідає вимогам пункту 2.2. цих Правил, необхідно:</p>
+			<p>• Ознайомитися з цими Правилами.</p>
+			<p>• Подати заявку на участь в конкурсі за встановленою формою на сайті Конкурсу www.zhirkiller.com.</p>
+			<p>• Вибрати на сайті конкурсу найбільш оптимальний для учасника тариф участі і оплатити його.</p>
+			<p>• Авторизуватись в соціальної мережі «Facebook»</p>
+			<p>• Зареєструватись в закритій группі на «Facebook». <a href="https://www.facebook.com/groups/zhirkiller2/">https://www.facebook.com/groups/zhirkiller2/</a></p>
+			<p>1.3.2. Зареєструватися на сайті Конкурсу www.zhirkiller.com, отримати доступ до «Особистого кабінету». </p>
+			<p>1.3.3. Заповнити Особистий профіль учасника. Ознайомитися і виконати спеціальні правила, які направляються учаснику конкурсу в першому конкурсному завданні. Учасник зобов'язаний написати звіт Організатору про ознайомлення із зазначеними спеціальними правилами. Невиконання зазначених правил, в тому числі через не ознайомлення з ними, є підставою для виключення учасника з конкурсу. </p>
+			<p>1.3.4. Ознайомитися з усіма методичними матеріалами та вказівками, які будуть запропоновані учаснику для зручності проходження конкурсу та підвищення результатів учасника.</p>
+			<p>1.3.5. Згідно з методичними матеріалами виконати серію своїх фотографій, відео і параметрів вимірів. Направити фотографії встановленого формату Організатору конкурсу через «Особистий кабінет». Фотографії повинні пройти схвалення Організатора за критеріями, викладеними в методичних матеріалах.</p>
+			<p>1.3.6. Згідно із запропонованою методикою і технічним вказівкам виконати вимірювання тіла. </p>
+			<p>1.3.7. Зафіксувати отримані результати вимірювань згідно з методичними вказівками. </p>
+			<p>1.3.8. Виконувати щоденні конкурсні завдання і направляти Організатору «щоденний звіт» про їх виконання через «Особистий кабінет» на сайті конкурсу в установлений термін. </p>
+			<p>1.3.9. Виконувати спеціальні конкурсні завдання «Сhallenge day», звіт про виконання яких необхідно направляти через «Особистий кабінет» на сайті конкурсу за допомогою відео-звіту в установлений строк.</p>
+			<p>1.3.10. Фіксувати проміжні результати занять і вимірювань тіла за запропонованою методикою в терміни, встановлені конкурсними завданнями. Щоб уникнути фальсифікацій з боку учасника, Організатор залишає за собою право вимагати підтвердження зафіксованих учасником результатів.</p>
+			<p>1.3.11. Направити свої фотографії, відео і параметри вимірів, зроблені в кінці 5-го тижня проведення конкурсу за встановленим форматом, строк направлення зазначеної фотографії вказується в конкурсному завданні на розсуд організатора. Організатор має право запросити на свій розсуд відео- підтвердження з метою перевірки на відсутність використання фоторедакторів при відправці фото «після». </p>
+			<p>1.3.12. У разі невиконання конкурсних завдань, зазначених в пп 1.3.1.- 1.3.11 цих Правил, учасник втрачає доступ до голосування в якості претендента, і втрачає право претендувати на нагороду. Але зберігає доступ в особистий кабінет, зберігає можливість голосувати за інших учасників конкурсу. Зберігає можливість отримувати завдання з вправами від тренерів.</p>
+			<p>1.3.13. Після виконання всіх спеціальних конкурсних завдань «Сhallenge day» і виконання п.п. 1.3.5. учасник автоматично потрапляє в перший етап конкурсного голосування.</p>
+			<p>1.3.14. Кожен Учасник гарантує, що є автором наданих до участі фотографії та відео та гарантує, що використання фотографій і відео в рамках Конкурсу не порушує прав Учасників або будь-якої третьої сторони (в тому числі авторських і суміжних прав, а також прав на засоби індивідуалізації). Надаючи свою фотографію і відео на участь в Конкурсі, Учасник передає безоплатно всі права на таку фотографію і відео організатору. </p>
+			<p>1.3.15. Учасник Конкурсу несе відповідальність за порушення авторських та інших прав третіх осіб згідно з чинним законодавством України. </p>
+			<p>1.3.16. Оцінка досягнень Учасника при голосуванні здійснюється виходячи з представлених 4 фотографій встановленого формату учасника конкурсу до початку конкурсу та 4 фотографій після проходження всіх конкурсних спортивних завдань.</p>
+			<p>В якості критеріїв оцінки результатів беруться до уваги наступні параметри: </p>
+			<p>• візуального поліпшення стану тіла учасника; </p>
+			<p>• пророблена мускулатура тіла;</p>
+			<p>• зменшення масової частки жиру в тілі учасника; </p>
+			<p>• сукупні статистичні результати тренувань учасників; </p>
+			<p>• загальний фізичний стан тіла учасника конкурсу.</p>
+			<h5>2. ПОРЯДОК ОПЛАТИ ТА ВАРТІСТЬ ПОСЛУГ</h5>
+			<p>2.1. Учасник оплачує Виконавцю вартість Послуг на умовах 100% передплати на підставі автоматично сформованого рахунку Виконавця під час реєстрації Учасника на веб-сайті www.zhirkiller.com або пролонгації Договору та Правил, використовуючи Особистий кабінет. </p>
+			<p>2.2 Оплата Послуг здійснюється Абонентом у національній валюті України безготівковим розрахунком, шляхом перерахування коштів з поточного рахунку Учасника на поточний рахунок Виконавця.</p>
+			<p>2.3. Вартість Послуг встановлюється відповідно до діючих тарифів Виконавця, розміщених на офіційному веб-сайті Виконавця www.zhirkiller.com, де є такі пакети участі:</p>
+			<p>• Пакет «Стандарт» - 469 гривень вартість (для участі однієї людини, в одному сезоні конкурсу). </p>
+			<p>• Пакет «Бонус» - 657 гривень вартість (в даний пакет входить один імунітет від «вильоту» з участі в конкурсі в одному з будь-яких спеціальних завдань «Сhallenge day»).</p>
+			<p>• Пакет «PRO» - 1 257 вартість гривень (даний пакет дозволяє мати повний імунітет від «вильоту» з участі в конкурсі за допомогою одного з конкурсних завдань).</p>
+			<h5>3. ПРАВА ТА ОБОВ’ЯЗКИ СТОРІН</h5>
+			<p><b>3.1 ПРАВА ТА ОБОВЯЗКИ УЧАСНИКА КОНКУРСУ</b></p>
+			<p>3.1.1. Особи, які відповідають цим Правилам і виконали вимоги, встановлені пунктом 3.1.2. цих Правил, іменуються учасниками Конкурсу (далі - Учасники). </p>
+			<p>3.1.2. Учасником Конкурсу може бути дієздатна фізична особа будь-якої статі, яка досягла 18 (вісімнадцяти) років, яке проживає на території України, території країн СНД і Європейського Союзу має доступ до мережі Інтернет, які подала заявку на участь в конкурсі на сайті www.zhirkiller.com, яка виконала дії , встановлені розділом 1. 3. цих правил. </p>
+			<p>3.1.3. Учасник може бути виключений Організатором з числа учасників, якщо стосовно цієї Сторони у Організатора є відомості про «накрутку» голосів будь-якими способами (використання програмних засобів впливу на результат, реєстрація одного користувача під різними іменами і / або акаунтами і голосування від їхнього імені, розміщення прохань про голосування в спільнотах взаємного голосування, спроба покупки голосів за гроші або іншу винагороду, інші методи впливу на результат). Звернення з проханням проголосувати до своїх друзів в соціальних мережах «накруткою» голосів не вважається.</p>
+			<p>3.1.4. Беручи участь в конкурсі, учасник погоджується з усіма умовами цих Правил.</p>
+			<p>3.1.5. Учасникам конкурсу категорично забороняється, пропаганда або агітація, збуджуючі соціальну, расову, національну чи релігійну ненависть або ворожнечу. Забороняється пропаганда соціального, расового, національного, релігійного чи мовного переваги. Негативні відгуки про інших учасників конкурсу, де містяться згадки про, етнічних, національних, конфесійних, релігійних уподобаннях, будь-які висловлювання і тим більше образи інших учасників і, або публікації в мережі інтернет і, або соціальних мережах, фотографій інших учасників без згоди на це самих учасників. Дії, спрямовані на збудження ненависті, або ворожнечі, а також на приниження гідності людини, або групи осіб за ознаками статі, раси, національності, мови, походження, ставлення до релігії, а рівно приналежності до якої-небудь соціальної групи, здійснені публічно або з використанням засобів масової інформації, мережі інтернет, соціальних мереж, за все вище перелічене буде автоматично виключений з участі в конкурсі без права отримання подальших завдань з тренуваннями і участь в боротьбі за призи.</p>
+			<p>3.1.6. Учасникам забороняється, поширення завідомо неправдивих відомостей і, або будь-якої недостовірної інформації (які не мають чітких обґрунтованих доказів), що ганьблять честь і гідність іншої особи або підривають його репутацію (інших учасників конкурсу або Організаторів конкурсу), за поширення бездоказовій інформації (наклепу) учасник і, або учасники, виключаються з конкурсу без права отримання тренувань і завдань, а також без права подальшого змагання за призи.</p>
+			<p>3.1.7. Участь в Конкурсі не дає права будь-якому Учаснику вимагати надання Нагород від Організатора, за винятком випадків, коли Нагорода присуджена відповідному Учаснику відповідно до Правил.</p>
+			<p><b>3.2. ПРАВА ТА ОБОВЯЗКИ ОРГАНІЗАТОРА КОНКУРСУ</b></p>
+			<p>3.2.1. Організатор зобов'язаний провести Конкурс, а також видати Нагороду відповідно до цих Правил та чинного законодавства України.</p>
+			<p>3.2.2. Організатор має право достроково припинити проведення Конкурсу.</p>
+			<p>3.2.3. Організатор при припиненні проведення конкурсу зобов'язується публічно повідомити учасників про таке припинення за допомогою публікації оголошення про припинення на сайті www.zhirkiller.com. </p>
+			<p>3.2.4. Організатор має право змінювати і доповнювати правила Конкурсу на власний розсуд з публікацією цих змін на сайті www.zhirkiller.com. </p>
+			<p>3.2.5. Організатор не несе відповідальності за неможливість здійснення зв'язку з Учасником, визнаним Переможцем конкурсу, через вказівки їм невірних або неактуальних контактних відомостей, неналежної роботи мереж і засобів зв'язку.</p>
+			<p>3.2.6. Організатор не компенсує Учасникам витрати, понесені у зв'язку з участю в Конкурсі а також витрати осіб, анкети яких не були допущені до участі в Конкурсі або яким-небудь чином не відповідають вимогам Правил. </p>
+			<p>3.2.7. Організатор має право визнавати недійсними і / або анулювати дії Учасника, в тому числі анулювати Визнання Учасника Переможцем, в разі якщо Організатором Конкурсу буде встановлено, що Учасник здійснює дії, спрямовані на фальсифікацію результатів Конкурсу, в тому числі за допомогою спеціального обладнання, програм або іншими недобросовісними способами, які можуть / могли вплинути на результати Конкурсу. У разі встановлення таких дій, вчинених Учасником, Організатор має право визнати Переможцем іншого Учасника. Організатор ні за яких умов не компенсує учасникам витрати, понесені у зв'язку з участю в конкурсі (включаючи поміж іншого зміну правил або скасування конкурсу), а також витрати учасникам, які не були допущені до участі в конкурсі або якимось чином не відповідають вимогам правил. </p>
+			<p>3.2.8. Організатор не зобов'язаний пояснювати, або коментувати вибір осіб при голосуванні учасниками або третіми особами. Організатор не зобов'язаний пояснювати, або коментувати свої дії і рішення по відношенню до осіб які порушили умови конкурсу.</p>
+			<h5>4. ОГОЛОШЕННЯ РЕЗУЛЬТАТІВ КОНКУРСУ, РОЗМІРИ ТА ВРУЧЕННЯ НАГОРОД КОНКУРСУ</h5>
+			<p><b>4.1 Порядок і терміни оголошення результатів конкурсу. </b></p>
+			<p>4.1.1. Визначення Переможця будь-якого сезону Конкурсу «ЖирКіллер» відбувається в три етапи в термін, зазначений в Розділі 5 цих Правил. </p>
+			<p>• 1 етап: Закрите голосування серед учасників конкурсу за анкету одного з кандидатів, за підсумками якого формуються фіналісти першого етапу.</p>
+			<p>• 2 етап: Закрите голосування за фіналістів 1 етапу, за підсумками якого обираються не більше 300 претендентів, які набрали найбільшу кількість голосів, які проходять до фінального третього етапу голосування. </p>
+			<p>• 3 етап: Голосування проводитиметься за системою, обраної організаторами, як найбільш об'єктивна і справедлива. Учасник, який набрав максимальну кількість голосів є переможцем конкурсу «ЖирКіллер». </p>
+			<p>4.1.2 В термін не пізніше 3 (трьох) тижнів з моменту закінчення конкурсних завдань Організатор Конкурсу оголошує переможців Конкурсу, а також розміщує підсумки Конкурсу на сайті, серед передплатників цього аккаунта.</p>
+			<p><b>4.2 Порядок і терміни вручення нагород конкурсу.</b></p>
+			<p>4.2.1. Нагороди Переможцям Конкурсу, передбачені п. 4.3 цих Правил, вручається Організатором особисто даним переможцям за місцем знаходження організатора, за адресою, вказаною Організатором в додатковому повідомленні переможцю. </p>
+			<p>4.2.2. Протягом 3 (трьох) робочих днів після визначення Переможця, в разі, якщо Переможець не зв’язався з Організатором, Організатор надсилає повідомлення про перемогу в Конкурсі на адресу електронної пошти, вказану при реєстрації на сайті www.zhirkiller.com і запитує інформацію, необхідну для вручення Нагороди. Переможець несе відповідальність за достовірність наданої інформації та відомостей.</p>
+			<p>4.2.3. Учасники Конкурсу мають можливість самостійно ознайомитися з підсумками Конкурсу в Особистому кабінеті.</p>
+			<p>4.2.4. Для отримання нагороди Переможець або особа, яка зайняла одне з призових місць зобов'язаний пред'явити оригінал документа, що посвідчує особу відповідно до законодавства України, підписати всі необхідні документи, пов'язані з отриманням Нагороди, в тому числі і документ, що підтверджує отримання ним відповідної Нагороди (Акт). А також в обов'язковому порядку, укласти Договір на надання рекламних послуг Організатору, як Переможця конкурсу, брати участь в фото- відеозйомці, в рекламних заходах Організатора, при врученні Нагороди, якщо це буде встановлено Організатором.</p>
+			<p>4.2.5. Відмова Переможця або особи, що зайняла одне з призових місць, зробити які-небудь дії, надати документи необхідні для фінансової звітності організатора. Надати документи, необхідні для отримання Нагороди в строк 3 (три) календарні дні. Відмова від укладення Договору на надання рекламних послуг Організатору, як Переможця конкурсу, передбачені цими Правилами, або виконання дій з істотними порушеннями, є підставою для відмови у видачі Нагороди, до моменту виконання Переможцем всіх необхідних дій в необхідному обсязі. У разі, якщо Переможець не відповідає або не надає необхідну інформацію у встановлений термін. Нагорода визнається незатребуваною. </p>
+			<p>4.2.6. Учасник дає згоду Організатору на обробку наданих їм для отримання Призу та виконання Організатором функцій податкового агента (якщо буде потреба) персональних даних як за допомогою програмно-апаратних засобів, так і без їх використання, в період з моменту надання персональних даних і до термінів, встановлених нормативними документами, протягом яких Організатор зобов'язаний зберігати інформацію про учасників конкурсу. Під обробкою персональних даних розуміються дії (операції) з персональними даними, включаючи збір, запис, систематизацію, накопичення, використання, зберігання, уточнення (оновлення, зміна), витяг, передачу (надання, доступ) персональних даних виключно у випадках та особам, визначеним в умовах Конкурсу, знищення персональних даних. Після завершення конкурсу персональні дані учасників знищуються. </p>
+			<p>4.2.7. Організатор не провадить зберігання незатребуваних призів. Організатор не несе відповідальності за невірно вказані Учасником відомості. У тому випадку, якщо Організатор не може зв'язатися з Переможцем по вказаним ним контактними даними і Переможець самостійно не вийшов на зв'язок з Організатором Конкурсу, Нагорода визнається незатребуваною. Організатор не несе відповідальності, якщо Учасник не зможе отримати Приз по причині, не залежній від Організатора. По закінченню 1 місяця з дня оприлюднення організатором призових місць видача Призів припиняється, а право Учасників на отримання Призу після зазначеної дати анулюється. </p>
+			<p><b>4.3. Розмір і форма нагороди </b></p>
+			<p>4.3.1. Призовий фонд Конкурсу включає в себе наступні Призи:</p>
+			<p>Переможці конкурсу категорії  Дивізіон «Hard game» нагороджуються:</p>
+			<p>• 1 місце - грошова винагорода в розмірі 100 000 гривень;</p>
+			<p>• 2 місце - 50 000 гривень;</p>
+			<p>• 3 місце - 50 000 гривень;</p>
+			<p>• 4 місце - ноутбук компанії Apple MacBook Air 13 (MMGF2) 2016;</p>
+			<p>• 5 місце - грошова винагорода в розмірі 20 000 гривень;</p>
+			<p>• 6 місце - розумний годинник компанії Apple iWatch series 2 (42мм);</p>
+			<p>• 7 місце - комплект форми New Balance (кросівки, футболка, шорти або тайси);</p>
+			<p>• 8-20 місце – грошова винагорода по 1000 гривень.</p>
+			<p>Переможці конкурсу категорії Дивізіон «Easy game» нагороджуються:</p>
+			<p>• 1 місце - грошова винагорода в розмірі 50 000 гривень; </p>
+			<p>• 2 місце - Iphone 7 plus 128 ГБ;</p>
+			<p>• 3 місце - грошова винагорода в розмірі 15 000 гривень; </p>
+			<p>• 4 місце - розумний годинник компанії Apple iWatch;</p>
+			<p>• 5 місце - комплект форми New Balance (кросівки, футболка, шорти або тайси);</p>
+			<p>• 6-15 місце - грошова винагорода по 1000 гривень.</p>
+			<p>4.3.2. Грошовий еквівалент Подарунків Організатором може бути виплачений за згодою Сторін (остаточне рішення приймається тільки на розсуд організатора). </p>
+			<p>4.3.3. Для отримання Нагороди Учасник, визнаний Переможцем конкурсу, повинен виконати наступні дії відповідно до вимог ПК України: надати за допомогою відправки по електронній пошті на електронну адресу info@zhirkiller.info протягом 3 (Трьох) робочих днів, після отримання відповідного повідомлення Організатора, відскановану копію паспорта громадянина (розворот з фотографією, сторінка з інформацією про останнє місце реєстрації), копію свідоцтва ІПН. Відскановані копії зазначених у цьому пункті документів повинні бути з літерами і цифрами, що чітко читаються, відскановані копії сторінок паспорта містять дані про серію та номер паспорта, місце і дату видачі паспорта, інформацію про адресу реєстрації за місцем проживання, а також фото та персональні дані Учасника ( прізвище, ім'я, по батькові, дату народження).</p>
+			<h5>5. СТРОК НАДАННЯ ПОСЛУГ</h5>
+			<p>5.1. Конкурс проводиться протягом 8 (восьми) календарних тижнів. Зазначений строк включає в себе: </p>
+			<p>• Термін відправки фотографій учасника конкурсу встановленого формату на сайті конкурсу до початку здійснення конкурсних завдань. </p>
+			<p>• Термін щоденних конкурсних завдань, спрямованих учаснику конкурсу в його «Особистий кабінет» на сайті конкурсу, що проводяться протягом 5 (п’яти) тижнів з моменту початку конкурсу. </p>
+			<p>• Три етапи голосування, визначення фіналістів та переможців та нагородження переможців Конкурсу, що проводяться протягом 3 (трьох) тижнів з моменту закінчення конкурсних завдань.</p>
+			<p>• Вручення призів за підсумками голосування в суперфіналі не пізніше ніж за 3 тижні з дня закінчення конкурсних завдань.</p>
+			<h5>6. ДОДАТКОВІ УМОВИ</h5>
+			<p>6.1. Факт подачі заявки на участь у конкурсі, має на увазі ознайомлення і згоду учасника з цими Правилами. </p>
+			<p>6.2. Результати проведення Конкурсу є остаточними і не підлягають перегляду. </p>
+			<p>6.3. Організатор Конкурсу, а також уповноважені ним особи не несуть відповідальності за:</p>
+			<p>• технічні збої в мережі інтернет-провайдера, до якої підключений Учасник, що не дозволяють уявити заявку для участі в Конкурсі або надати звіт про виконане завдання у встановлений термін;</p>
+			<p>• за дії / бездіяльність оператора інтернет-зв'язку, до якої підключений Учасник;</p>
+			<p>• за не ознайомлення Учасників з результатами Конкурсу; </p>
+			<p>• а також за неотримання від Учасників відомостей, необхідних для отримання нагород, з вини організацій зв'язку, або з інших, не залежних від Організатора причин.</p>
+			<p>6.4. Організатор Конкурсу має право не відповідати на скарги, питання і інші повідомлення Учасників Конкурсу, що надійшли за допомогою електронної пошти. </p>
+			<p>6.5. Учасник погоджується, що ці Правила можуть бути змінені Організатором без будь-якого спеціального повідомлення. Будь-які зміни Правил вступають в силу з моменту опублікування нової редакції Правил на сайті www.zhirkiller.com.</p>
+			<p>6.6. Організатор не відповідає за будь-які наслідки помилок Учасника, включаючи (крім усього іншого) понесені витрати. </p>
+			<p>6.7. Всі Учасники та Переможці Конкурсу самостійно оплачують всі витрати, понесені ними у зв'язку з участю в Конкурсі (у тому числі, без обмежень, витрати, пов'язані з доступом в Інтернет), крім тих витрат, які прямо вказані в цих Правилах, як витрати, вироблені за рахунок організатора. </p>
+			<p>6.8. Організатор Конкурсу не несе відповідальності за порушення Учасником Конкурсу прав третіх осіб.</p>
+			<p>6.9. Всі спірні питання, що стосуються цього Конкурсу, регулюються на основі чинного законодавства України за місцем знаходження організатора.</p>
+		</div>
+	</div>
+</div>
+<!-- /форма модальное окно политика конфиденциальности-->
+
+	  
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Load CSS -->
+	<script>
+		function loadCSS(hf) {
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCSS("_fonts.css"); //Load Libs CSS: Animate CSS
+		loadCSS("libs/owlcarousel/owl.carousel.min.css"); //Load Libs CSS: OwlCarousel CSS
+		loadCSS("libs/owlcarousel/owl.theme.default.min.css"); //Load Libs CSS: OwlCarousel CSS
+		loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+		loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
+		loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
+		loadCSS("css/style.css");            //User Styles: Main
+		loadCSS("css/_media.css");           //User Styles: Media
+	</script>
+
+	<!-- Load CSS compiled without Bootstrap & Header styles (after release) -->
+	<script>var ms=document.createElement("link");ms.rel="stylesheet";
+		// ms.href="style.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	</script>
+
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script> 
+	<script>
+
+		jQuery(function(f){
+		    var element = f('#blfix');
+		    f(window).scroll(function(){
+		        element['fade'+ (f(this).scrollTop() > 70 ? 'In': 'Out')](400);
+		    });
+		});
+	</script> 
+	<!-- Load Scripts -->
+	<script>var scr = {"scripts":[
+		{"src" : "libs/modernizr/modernizr.js", "async" : false},				
+		{"src" : "libs/animate/wow.js", "async" : false},
+		{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
+		{"src" : "libs/owlcarousel/owl.carousel.min.js", "async" : false},
+		{"src" : "libs/remodal/remodal.min.js", "async" : false},
+		{"src" : "libs/jquery-spincrement/jquery.spincrement.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+
+	<script>
+		$(window).load(function() {
+
+		  $("#wrapper").fadeOut();
+		  $(".loader").delay(400).fadeOut("slow");
+
+		});
+	
+	</script>
+
+	<script type="text/javascript">
+        ! function(i) {
+          var o, n;
+          i(".title_block").on("click", function() {
+            o = i(this).parents(".accordion_item"), n = o.find(".info"),
+              o.hasClass("active_block") ? (o.removeClass("active_block"),
+                n.slideUp()) : (o.addClass("active_block"), n.stop(!0, !0).slideDown(),
+                o.siblings(".active_block").removeClass("active_block").children(
+                  ".info").stop(!0, !0).slideUp())
+          })
+        }(jQuery);
+    </script>  
+	  
+	<script type="text/javascript">
+		const second = 1000,
+		  minute = second * 60,
+		  hour = minute * 60,
+		  day = hour * 24;
+
+	let countDown = new Date('Sep 25, 2017 00:00:00').getTime(),
+		x = setInterval(function() {
+
+		  let now = new Date().getTime(),
+			  distance = countDown - now;
+
+		  document.getElementById('days').innerHTML = Math.floor(distance / (day)),
+			document.getElementById('hours').innerHTML = Math.floor((distance % (day)) / (hour)),
+			document.getElementById('minutes').innerHTML = Math.floor((distance % (hour)) / (minute)),
+			document.getElementById('seconds').innerHTML = Math.floor((distance % (minute)) / second);
+		  
+		  //do something later when date is reached
+		  //if (distance < 0) {
+		  //  clearInterval(x);
+		  //  'IT'S MY BIRTHDAY!;
+		  //}
+
+		}, second)
+	</script>  
+</body>
+</html>
