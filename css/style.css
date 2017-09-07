@@ -1089,8 +1089,69 @@ label.error {
   color: #4f1e00;
 }
 .last-seasons-video {
+  position: relative;
   max-width: 728px;
   margin: 0 auto;
+}
+.popup-youtube {
+  outline: none;
+}
+.html5-video-player a {
+  display: none !important;
+}
+.last-seasons-video:hover span,
+.wi-r__vidio-wrap:hover span {
+  transform: scale(1.2);
+}
+.last-seasons-video span,
+.wi-r__vidio-wrap span,
+.ho-t__photo-wrap span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: table;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  background: #25a0e6;
+  transition: 0.35s ease;
+  margin: -30px 0 0 -30px;
+}
+.last-seasons-video i,
+.wi-r__vidio-wrap i,
+.ho-t__photo-wrap i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 23px;
+  padding-left: 5px;
+}
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
 }
 .four-seasons {
   height: 1156px;
@@ -1392,12 +1453,18 @@ h2.four-seasons__headline:after {
   margin-bottom: 40px;
 }
 .ho-t__item .ho-t__photo-wrap {
+  position: relative;
   width: 100%;
   max-width: 390px;
   margin: 0 auto 35px;
 }
 .ho-t__item .ho-t__photo-wrap img {
   width: 100%;
+  transition: 0.35s ease;
+}
+
+.ho-t__item .popup-youtube:hover img {
+  transform: scale(1.05);
 }
 .ho-t__item h3 {
   position: relative;
@@ -1436,6 +1503,9 @@ h2.four-seasons__headline:after {
 .ho-t__item--5 h3::before {
   content: "5";
 }
+.ho-t__item--6 {
+  margin-bottom: 0;
+}
 .ho-t__item--6 h3::before {
   content: "6";
 }
@@ -1450,6 +1520,9 @@ h2.four-seasons__headline:after {
           box-sizing: border-box;
   padding: 10px 16px;
   margin: 0 auto 40px;
+}
+.ho-t__info-1 {
+  margin-bottom: 0;
 }
 .ho-t__info::before {
   content: "";
@@ -1537,8 +1610,7 @@ h2.four-seasons__headline:after {
   background: #faba0d;
 }
 .part-format__game {
-  text-align: center;
-  padding-top: 40px;
+  text-align: center;  
 }
 .part-format__game .hard-game {
   display: inline-block;
@@ -1993,7 +2065,7 @@ h2.four-seasons__headline:after {
   color: #23495e;
   font-size: 48px;
 }
-.packages-check__value:before {
+/*--.packages-check__value:before {
   content: '';
   width: 100%;
   height: 1px;
@@ -2001,7 +2073,7 @@ h2.four-seasons__headline:after {
   position: absolute;
   top: 0;
   left: 0;
-}
+}--*/
 .packages-check__value strike {
 	font-family: 'Fira Sans', sans-serif;  
   	font-weight: 500;
@@ -2051,6 +2123,9 @@ h2.four-seasons__headline:after {
   position: absolute;
   right: -30px;
 }
+.timer-wrap li:nth-child(3) span:after {
+  display: none;
+}
 .timer-wrap li:last-child span:after {
   display: none;
 }
@@ -2063,6 +2138,7 @@ li.seconds,
   min-height: 890px;
   background: #fff;
   padding-top: 35px;
+  padding-bottom: 50px;
 }
 .faq__headline {
   margin-bottom: 65px;
@@ -2295,9 +2371,8 @@ li.seconds,
 }
 .ready {
   width: 100%;
-  height: 510px;
+  height: 710px;
   background: url("../img/bg-ready.jpg") no-repeat top center;
-  background-size: cover;
   padding-top: 75px;
 }
 .ready__headline {
@@ -2318,7 +2393,9 @@ li.seconds,
   background: #ff6600;
 }
 .btn-ready:hover {
-  background: #cedbe1;
+  background: #ff6600;
+  -webkit-box-shadow: 0px 3px 14px 1px #ff6600;
+  box-shadow: 0px 3px 14px 1px #ff6600;
 }
 .main-footer {
   width: 100%;
@@ -2372,3 +2449,5 @@ li.seconds,
 .policy-confidential {
   margin-bottom: 100px;
 }
+
+

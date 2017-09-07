@@ -23,7 +23,32 @@ $(function() {
     $("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
 });
+function mobileMenu(){
+    $('.open-mobile-menu').on('click', function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      var button = $(this);
+      button.toggleClass('open');
+    });
+}
+$( document ).ready(function() {
+  mobileMenu();
+});
+$( ".open-mobile-menu" ).click(function() {
+    $( "#mob-menu" ).slideToggle( 200, function() {
+    });
+});
 $(document).ready(function() {
+
+    $('.popup-youtube').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+    });
 
     //nav-menu
     $(".button a").click(function(){
@@ -94,47 +119,5 @@ $(document).ready(function() {
   });
 
 
-$("#contact-call-back").validate();
-$("#contact-order-call").validate();
-$("#contact-get-price").validate();
 
-$(document).ready(function() { 
 
-    (function ($) { 
-        $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
-        
-        $('.tab ul.tabs li a').click(function (g) { 
-            var tab = $(this).closest('.tab'), 
-                index = $(this).closest('li').index();
-            
-            tab.find('ul.tabs > li').removeClass('current');
-            $(this).closest('li').addClass('current');
-            
-            tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
-            tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
-            
-            g.preventDefault();
-        } );
-    })(jQuery);    
-
-});
-$('.accordion-item .heading').on('click', function(e) {
-    e.preventDefault();
-
-    // Add the correct active class
-    if($(this).closest('.accordion-item').hasClass('active')) {
-        // Remove active classes
-        $('.accordion-item').removeClass('active');
-    } else {
-        // Remove active classes
-        $('.accordion-item').removeClass('active');
-
-        // Add the active class
-        $(this).closest('.accordion-item').addClass('active');
-    }
-
-    // Show the content
-    var $content = $(this).next();
-    $content.slideToggle(100);
-    $('.accordion-item .faq-accordion-content').not($content).slideUp('fast');
-});
