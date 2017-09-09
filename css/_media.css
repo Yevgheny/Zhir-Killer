@@ -112,8 +112,10 @@
 	.new-season-info {
 		height: auto;
 	}
-	.last-seasons-video {
+	.last-seasons-video,
+	.wi-r__vidio-wrap {
 		width: 85%;
+		height: 356px;
 	}
 	.last-seasons-video img {
 		max-width: 100%;
@@ -425,6 +427,11 @@
 	}
 	.new-season-info {
 		padding: 40px 0 0 153px;
+	}
+	.last-seasons-video,
+	.wi-r__vidio-wrap {
+	    width: 85%;
+	    height: 155px;
 	}
 	.ready {
 		min-height: 440px;

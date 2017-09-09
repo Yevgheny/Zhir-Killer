@@ -1091,6 +1091,7 @@ label.error {
 .last-seasons-video {
   position: relative;
   max-width: 728px;
+  height: 405px;
   margin: 0 auto;
 }
 .popup-youtube {
@@ -1582,6 +1583,7 @@ h2.four-seasons__headline:after {
   position: relative;
   width: 100%;
   max-width: 740px;
+  height: 405px;
   margin: 0 auto;
 }
 .wi-r__vidio-wrap img {
